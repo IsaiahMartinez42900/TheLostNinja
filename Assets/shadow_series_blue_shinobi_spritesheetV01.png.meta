@@ -1,0 +1,2405 @@
+fileFormatVersion: 2
+guid: 2117dee770aa72c46a6fbcf967b63e4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6482343863641764170
+    second: shadow_series_blue_shinobi_spritesheetV01_0
+  - first:
+      213: -2767967584438095607
+    second: shadow_series_blue_shinobi_spritesheetV01_1
+  - first:
+      213: 2194334441357091591
+    second: shadow_series_blue_shinobi_spritesheetV01_2
+  - first:
+      213: -2840322104218595697
+    second: shadow_series_blue_shinobi_spritesheetV01_3
+  - first:
+      213: 4742401086229090739
+    second: shadow_series_blue_shinobi_spritesheetV01_4
+  - first:
+      213: 6243536646735600883
+    second: shadow_series_blue_shinobi_spritesheetV01_5
+  - first:
+      213: 7964437210837260122
+    second: shadow_series_blue_shinobi_spritesheetV01_6
+  - first:
+      213: -5638013882017161857
+    second: shadow_series_blue_shinobi_spritesheetV01_7
+  - first:
+      213: -3812035748977307716
+    second: shadow_series_blue_shinobi_spritesheetV01_8
+  - first:
+      213: 7590452772497678054
+    second: shadow_series_blue_shinobi_spritesheetV01_9
+  - first:
+      213: 8474162056092696797
+    second: shadow_series_blue_shinobi_spritesheetV01_10
+  - first:
+      213: 5947079819853355423
+    second: shadow_series_blue_shinobi_spritesheetV01_11
+  - first:
+      213: 3647944961076061015
+    second: shadow_series_blue_shinobi_spritesheetV01_12
+  - first:
+      213: 6515309597748505635
+    second: shadow_series_blue_shinobi_spritesheetV01_13
+  - first:
+      213: -2349924129554124863
+    second: shadow_series_blue_shinobi_spritesheetV01_14
+  - first:
+      213: 3466784308173992029
+    second: shadow_series_blue_shinobi_spritesheetV01_15
+  - first:
+      213: 3221343233508274129
+    second: shadow_series_blue_shinobi_spritesheetV01_16
+  - first:
+      213: -4049183477545884680
+    second: shadow_series_blue_shinobi_spritesheetV01_17
+  - first:
+      213: -5151192982150288626
+    second: shadow_series_blue_shinobi_spritesheetV01_18
+  - first:
+      213: 62594449509003670
+    second: shadow_series_blue_shinobi_spritesheetV01_19
+  - first:
+      213: -3145227436307311901
+    second: shadow_series_blue_shinobi_spritesheetV01_20
+  - first:
+      213: -1956563467565119511
+    second: shadow_series_blue_shinobi_spritesheetV01_21
+  - first:
+      213: 9043493815639335156
+    second: shadow_series_blue_shinobi_spritesheetV01_22
+  - first:
+      213: -1347487601480719161
+    second: shadow_series_blue_shinobi_spritesheetV01_23
+  - first:
+      213: 773808011149316116
+    second: shadow_series_blue_shinobi_spritesheetV01_24
+  - first:
+      213: 4284145678992284527
+    second: shadow_series_blue_shinobi_spritesheetV01_25
+  - first:
+      213: -3797615199508526282
+    second: shadow_series_blue_shinobi_spritesheetV01_26
+  - first:
+      213: 281561788339220329
+    second: shadow_series_blue_shinobi_spritesheetV01_27
+  - first:
+      213: -145499738645450330
+    second: shadow_series_blue_shinobi_spritesheetV01_28
+  - first:
+      213: -7519768859019003154
+    second: shadow_series_blue_shinobi_spritesheetV01_29
+  - first:
+      213: 6269971716472454027
+    second: shadow_series_blue_shinobi_spritesheetV01_30
+  - first:
+      213: 7122697715051697942
+    second: shadow_series_blue_shinobi_spritesheetV01_31
+  - first:
+      213: -1132731912440072703
+    second: shadow_series_blue_shinobi_spritesheetV01_32
+  - first:
+      213: 5440651644542385337
+    second: shadow_series_blue_shinobi_spritesheetV01_33
+  - first:
+      213: 539809108583362777
+    second: shadow_series_blue_shinobi_spritesheetV01_34
+  - first:
+      213: 900097447191149353
+    second: shadow_series_blue_shinobi_spritesheetV01_35
+  - first:
+      213: 3986186181806393891
+    second: shadow_series_blue_shinobi_spritesheetV01_36
+  - first:
+      213: -920040440431644592
+    second: shadow_series_blue_shinobi_spritesheetV01_37
+  - first:
+      213: -7117713023951548657
+    second: shadow_series_blue_shinobi_spritesheetV01_38
+  - first:
+      213: 8378440040005567612
+    second: shadow_series_blue_shinobi_spritesheetV01_39
+  - first:
+      213: -976213642425548579
+    second: shadow_series_blue_shinobi_spritesheetV01_40
+  - first:
+      213: 3195889911665822946
+    second: shadow_series_blue_shinobi_spritesheetV01_41
+  - first:
+      213: 5658691010805706998
+    second: shadow_series_blue_shinobi_spritesheetV01_42
+  - first:
+      213: 4737571492074762800
+    second: shadow_series_blue_shinobi_spritesheetV01_43
+  - first:
+      213: -3367409698600141620
+    second: shadow_series_blue_shinobi_spritesheetV01_44
+  - first:
+      213: 883804661919447103
+    second: shadow_series_blue_shinobi_spritesheetV01_45
+  - first:
+      213: 5915864130652272758
+    second: shadow_series_blue_shinobi_spritesheetV01_46
+  - first:
+      213: 713712758114057333
+    second: shadow_series_blue_shinobi_spritesheetV01_47
+  - first:
+      213: 7805379012788039481
+    second: shadow_series_blue_shinobi_spritesheetV01_48
+  - first:
+      213: -8899573131313688131
+    second: shadow_series_blue_shinobi_spritesheetV01_49
+  - first:
+      213: 5649406349318835442
+    second: shadow_series_blue_shinobi_spritesheetV01_50
+  - first:
+      213: 2076337205214932907
+    second: shadow_series_blue_shinobi_spritesheetV01_51
+  - first:
+      213: -5591496824562823220
+    second: shadow_series_blue_shinobi_spritesheetV01_52
+  - first:
+      213: -1761579078611519095
+    second: shadow_series_blue_shinobi_spritesheetV01_53
+  - first:
+      213: 218333308185043824
+    second: shadow_series_blue_shinobi_spritesheetV01_54
+  - first:
+      213: -3308037928089329175
+    second: shadow_series_blue_shinobi_spritesheetV01_55
+  - first:
+      213: 2831578228344465907
+    second: shadow_series_blue_shinobi_spritesheetV01_56
+  - first:
+      213: -5326006665601154891
+    second: shadow_series_blue_shinobi_spritesheetV01_57
+  - first:
+      213: -7600333437812060490
+    second: shadow_series_blue_shinobi_spritesheetV01_58
+  - first:
+      213: -896071335180848751
+    second: shadow_series_blue_shinobi_spritesheetV01_59
+  - first:
+      213: 168646932770020880
+    second: shadow_series_blue_shinobi_spritesheetV01_60
+  - first:
+      213: 6666514585506663996
+    second: shadow_series_blue_shinobi_spritesheetV01_61
+  - first:
+      213: 3320075760844857394
+    second: shadow_series_blue_shinobi_spritesheetV01_62
+  - first:
+      213: -5650029314281662392
+    second: shadow_series_blue_shinobi_spritesheetV01_63
+  - first:
+      213: 201321510839094370
+    second: shadow_series_blue_shinobi_spritesheetV01_64
+  - first:
+      213: 1214303577555153528
+    second: shadow_series_blue_shinobi_spritesheetV01_65
+  - first:
+      213: 2061558889016969134
+    second: shadow_series_blue_shinobi_spritesheetV01_66
+  - first:
+      213: 3788101434450348901
+    second: shadow_series_blue_shinobi_spritesheetV01_67
+  - first:
+      213: 330448195973457718
+    second: shadow_series_blue_shinobi_spritesheetV01_68
+  - first:
+      213: -6555523314365138280
+    second: shadow_series_blue_shinobi_spritesheetV01_69
+  - first:
+      213: 7774720480278636592
+    second: shadow_series_blue_shinobi_spritesheetV01_70
+  - first:
+      213: -4307106139969906480
+    second: shadow_series_blue_shinobi_spritesheetV01_71
+  - first:
+      213: -9105660269829433633
+    second: shadow_series_blue_shinobi_spritesheetV01_72
+  - first:
+      213: -3585421902377040819
+    second: shadow_series_blue_shinobi_spritesheetV01_73
+  - first:
+      213: 5498239969135247945
+    second: shadow_series_blue_shinobi_spritesheetV01_74
+  - first:
+      213: -7561579611689617978
+    second: shadow_series_blue_shinobi_spritesheetV01_75
+  - first:
+      213: -5370892480217608289
+    second: shadow_series_blue_shinobi_spritesheetV01_76
+  - first:
+      213: 2944586296303174209
+    second: shadow_series_blue_shinobi_spritesheetV01_77
+  - first:
+      213: -2611382789249953121
+    second: shadow_series_blue_shinobi_spritesheetV01_78
+  - first:
+      213: -1221510592824689797
+    second: shadow_series_blue_shinobi_spritesheetV01_79
+  - first:
+      213: 7747655419109436312
+    second: shadow_series_blue_shinobi_spritesheetV01_80
+  - first:
+      213: -5689088094661267513
+    second: shadow_series_blue_shinobi_spritesheetV01_81
+  - first:
+      213: 5549671652145699823
+    second: shadow_series_blue_shinobi_spritesheetV01_82
+  - first:
+      213: 6657006869651804774
+    second: shadow_series_blue_shinobi_spritesheetV01_83
+  - first:
+      213: 7912972108001507959
+    second: shadow_series_blue_shinobi_spritesheetV01_84
+  - first:
+      213: 8820558338540118861
+    second: shadow_series_blue_shinobi_spritesheetV01_85
+  - first:
+      213: 519166360765600043
+    second: shadow_series_blue_shinobi_spritesheetV01_86
+  - first:
+      213: -5468265861710822527
+    second: shadow_series_blue_shinobi_spritesheetV01_87
+  - first:
+      213: -3114433580688696049
+    second: shadow_series_blue_shinobi_spritesheetV01_88
+  - first:
+      213: 3274871203789604996
+    second: shadow_series_blue_shinobi_spritesheetV01_89
+  - first:
+      213: 1503953245517882787
+    second: shadow_series_blue_shinobi_spritesheetV01_90
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 642
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41fc482669e5f950800000000000000
+      internalID: 6482343863641764170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 642
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90175c3b5243699d0800000000000000
+      internalID: -2767967584438095607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 642
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703ae7f5c87d37e10800000000000000
+      internalID: 2194334441357091591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_3
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 642
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e4c5a48162598d0800000000000000
+      internalID: -2840322104218595697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 642
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b19c1f59a460d140800000000000000
+      internalID: 4742401086229090739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_5
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 642
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc1fc2208f75a650800000000000000
+      internalID: 6243536646735600883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_6
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 642
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a579bd3227d578e60800000000000000
+      internalID: 7964437210837260122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_7
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 642
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d55abee30c1c1b0800000000000000
+      internalID: -5638013882017161857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_8
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 642
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf0e1feeade81bc0800000000000000
+      internalID: -3812035748977307716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 578
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee5a15a494b65960800000000000000
+      internalID: 7590452772497678054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 578
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0cf72fd754a9570800000000000000
+      internalID: 8474162056092696797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 578
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99d0415695488250800000000000000
+      internalID: 5947079819853355423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 578
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7536d1d4d9a10a230800000000000000
+      internalID: 3647944961076061015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_13
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 578
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c2e7f3f870b6a50800000000000000
+      internalID: 6515309597748505635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 578
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfaec06474636fd0800000000000000
+      internalID: -2349924129554124863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 578
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50fb91e5fd7c1030800000000000000
+      internalID: 3466784308173992029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_16
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 579
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df6edc7a9284bc20800000000000000
+      internalID: 3221343233508274129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 579
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f32f76a4196ec7c0800000000000000
+      internalID: -4049183477545884680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 514
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b627166494388b0800000000000000
+      internalID: -5151192982150288626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_19
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 514
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69135e7f1516ed000800000000000000
+      internalID: 62594449509003670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_20
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 517
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e217119f48e954d0800000000000000
+      internalID: -3145227436307311901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_21
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 514
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7464f74e3e8d4e0800000000000000
+      internalID: -1956563467565119511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_22
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 514
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0ef99f5b1f08d70800000000000000
+      internalID: 9043493815639335156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_23
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 526
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4af7e6a23cc4de0800000000000000
+      internalID: -1347487601480719161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_24
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 541
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41018ec494e1dba00800000000000000
+      internalID: 773808011149316116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_25
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 539
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b1c52fbc7547b30800000000000000
+      internalID: 4284145678992284527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_26
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 541
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b8bafb8192c4bc0800000000000000
+      internalID: -3797615199508526282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 477
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f684864fe48e300800000000000000
+      internalID: 281561788339220329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_28
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 477
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1302332c41bfdf0800000000000000
+      internalID: -145499738645450330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 475
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeab02d601a64a790800000000000000
+      internalID: -7519768859019003154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_30
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 477
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b36107e0a630750800000000000000
+      internalID: 6269971716472454027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 462
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617942c85d7e8d260800000000000000
+      internalID: 7122697715051697942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_32
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 450
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106b24db35ab740f0800000000000000
+      internalID: -1132731912440072703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_33
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 450
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcf79b48d3118b40800000000000000
+      internalID: 5440651644542385337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_34
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 450
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0b1a33689cd7700800000000000000
+      internalID: 539809108583362777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_35
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 465
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b701bfbd9cd7c00800000000000000
+      internalID: 900097447191149353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 401
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a042f6637c15730800000000000000
+      internalID: 3986186181806393891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 401
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050f311181c5b33f0800000000000000
+      internalID: -920040440431644592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_38
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 399
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f423a47bdc83d90800000000000000
+      internalID: -7117713023951548657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_39
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 400
+        width: 59
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74017453d2364470800000000000000
+      internalID: 8378440040005567612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_40
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 400
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0c55a4ddac372f0800000000000000
+      internalID: -976213642425548579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_41
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 401
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec881e21f41a5c20800000000000000
+      internalID: 3195889911665822946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_42
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 401
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f035c84e75b78e40800000000000000
+      internalID: 5658691010805706998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_43
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 400
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032322bdb2c3fb140800000000000000
+      internalID: 4737571492074762800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_44
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 395
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccbbbd68be8441d0800000000000000
+      internalID: -3367409698600141620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 71
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38fa8c48a7e34c00800000000000000
+      internalID: 883804661919447103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_46
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 334
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678f00f451f591250800000000000000
+      internalID: 5915864130652272758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_47
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 334
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c7d0bd8fd97e900800000000000000
+      internalID: 713712758114057333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_48
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 334
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f25828bd6425c60800000000000000
+      internalID: 7805379012788039481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_49
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 337
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1df67936d5e7480800000000000000
+      internalID: -8899573131313688131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_50
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 337
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc4cf29429b66e40800000000000000
+      internalID: 5649406349318835442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_51
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 337
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf63ceefa1a0dc10800000000000000
+      internalID: 2076337205214932907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_52
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 337
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf453953430762b0800000000000000
+      internalID: -5591496824562823220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_53
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 322
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989b997492d9d87e0800000000000000
+      internalID: -1761579078611519095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_54
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 258
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073610dacfca70300800000000000000
+      internalID: 218333308185043824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_55
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 258
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e167b8f70d7712d0800000000000000
+      internalID: -3308037928089329175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_56
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 258
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9a3367569cb4720800000000000000
+      internalID: 2831578228344465907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_57
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 258
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b00b71f7293616b0800000000000000
+      internalID: -5326006665601154891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_58
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 258
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be40b0b101368690800000000000000
+      internalID: -7600333437812060490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_59
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 258
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191b2254ed38093f0800000000000000
+      internalID: -896071335180848751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_60
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 258
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e5738ed77275200800000000000000
+      internalID: 168646932770020880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_61
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 258
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ec51fd1b7348c50800000000000000
+      internalID: 6666514585506663996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_62
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 258
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230ea806057431e20800000000000000
+      internalID: 3320075760844857394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 194
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84892b716401791b0800000000000000
+      internalID: -5650029314281662392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_64
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 194
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c8533f8dc3bc200800000000000000
+      internalID: 201321510839094370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_65
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 194
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87239ad8ba21ad010800000000000000
+      internalID: 1214303577555153528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_66
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 194
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7c76f03e02c9c10800000000000000
+      internalID: 2061558889016969134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_67
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 194
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b8f853f2a029430800000000000000
+      internalID: 3788101434450348901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_68
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 194
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637aaa922ecf59400800000000000000
+      internalID: 330448195973457718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_69
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 194
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a797a374a1605a0800000000000000
+      internalID: -6555523314365138280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_70
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 194
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03866f6a51b55eb60800000000000000
+      internalID: 7774720480278636592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_71
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 194
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8903529c51a34c0800000000000000
+      internalID: -4307106139969906480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_72
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 130
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6dd6b7a3232a180800000000000000
+      internalID: -9105660269829433633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_73
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 130
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4449e2b6c50e3ec0800000000000000
+      internalID: -3585421902377040819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_74
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 130
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942492afe1cad4c40800000000000000
+      internalID: 5498239969135247945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_75
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 130
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c57768f76fdf0790800000000000000
+      internalID: -7561579611689617978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_76
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 130
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f00d5deb1c675b0800000000000000
+      internalID: -5370892480217608289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_77
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 130
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14242a9a2a54dd820800000000000000
+      internalID: 2944586296303174209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_78
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 130
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92103a503182cbd0800000000000000
+      internalID: -2611382789249953121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_79
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 130
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bbe4176925c0fe0800000000000000
+      internalID: -1221510592824689797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_80
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 130
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89be52a0e83358b60800000000000000
+      internalID: 7747655419109436312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_81
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 66
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfafcd158c4c01b0800000000000000
+      internalID: -5689088094661267513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_82
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb1336d6f4640d40800000000000000
+      internalID: 5549671652145699823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_83
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 66
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6625ee44a70726c50800000000000000
+      internalID: 6657006869651804774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_84
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 66
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77af00f153680dd60800000000000000
+      internalID: 7912972108001507959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_85
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 66
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d432b49531be86a70800000000000000
+      internalID: 8820558338540118861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_86
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 66
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2114c0fd03743700800000000000000
+      internalID: 519166360765600043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_87
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 66
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183c45fbb21dc14b0800000000000000
+      internalID: -5468265861710822527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_88
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 87
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d908ac82f47c4d0800000000000000
+      internalID: -3114433580688696049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_89
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 66
+        width: 57
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4880903420ea27d20800000000000000
+      internalID: 3274871203789604996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_series_blue_shinobi_spritesheetV01_90
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 24
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5a3ed228d1fd410800000000000000
+      internalID: 1503953245517882787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
