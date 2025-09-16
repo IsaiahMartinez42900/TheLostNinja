@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: 06c8adfff518c9245bd379ac38d3c545
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shurikenPrefab: {fileID: 5098161895077773909, guid: c4efec12096792b48a2f4c3a3b3c927b, type: 3}
+  - shurikenSpawnPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
