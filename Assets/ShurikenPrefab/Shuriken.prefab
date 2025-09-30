@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3903022617307790945}
   - component: {fileID: 7642350265256192941}
-  - component: {fileID: 3308150718410967911}
   - component: {fileID: 64145181425485889}
-  m_Layer: 0
+  - component: {fileID: 686767438177788865}
+  m_Layer: 7
   m_Name: Shuriken
   m_TagString: CharacterShuriken
   m_Icon: {fileID: 0}
@@ -27,9 +27,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5098161895077773909}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.55, y: 0.42, z: 0}
-  m_LocalScale: {x: 0.50034076, y: 0.27767965, z: 1}
+  m_LocalScale: {x: 0.43096712, y: 0.3682591, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -89,23 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3308150718410967911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5098161895077773909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06c8adfff518c9245bd379ac38d3c545, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterSpeed: 15.5
-  shurikenSpeed: 15.5
-  jumpForce: 10
-  direction: 1
-  shurikenCount: 3
 --- !u!61 &64145181425485889
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -152,3 +135,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.55, y: 2.55}
   m_EdgeRadius: 0
+--- !u!114 &686767438177788865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5098161895077773909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e071bd7dbbca36408fb276bdef0382d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  direction: 1
