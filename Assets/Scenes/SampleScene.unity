@@ -247,8 +247,8 @@ Transform:
   m_GameObject: {fileID: 27789373}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4663, y: -0.75809956, z: 0}
-  m_LocalScale: {x: 57.06382, y: 3.679213, z: 1}
+  m_LocalPosition: {x: -14.5994, y: -0.75809956, z: 0}
+  m_LocalScale: {x: 149.52582, y: 3.679213, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -265,6 +265,8 @@ GameObject:
   - component: {fileID: 169039361}
   - component: {fileID: 169039360}
   - component: {fileID: 169039359}
+  - component: {fileID: 169039363}
+  - component: {fileID: 169039364}
   m_Layer: 0
   m_Name: EnemyNinja (2)
   m_TagString: EnemyNinja
@@ -333,17 +335,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.39087594, y: -0.06565285}
+  m_Offset: {x: -0.001089856, y: -0.000033274293}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.73, y: 7.94}
+    oldSize: {x: 0.44, y: 0.45}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.796995, y: 7.7622995}
+  m_Size: {x: 0.44459757, y: 0.4537103}
   m_EdgeRadius: 0
 --- !u!212 &169039361
 SpriteRenderer:
@@ -389,9 +391,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4195091448304512128, guid: 80b446f81286e944fbce66d743c29510, type: 3}
+  m_Sprite: {fileID: -2767967584438095607, guid: 2117dee770aa72c46a6fbcf967b63e4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -410,11 +412,49 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 21.65, y: 3.25, z: 0}
-  m_LocalScale: {x: -0.3125617, y: 0.5316665, z: 1}
+  m_LocalScale: {x: 9.066717, y: 8.857733, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &169039363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169039358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f67a7273863f04298f059fd84d8629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 5
+  Direction: 1
+  walkTimer: 0
+  walkCooldown: 1.5
+--- !u!95 &169039364
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169039358}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f9177c8908b2a9489c6d2f288ab9947, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &319046637
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +467,8 @@ GameObject:
   - component: {fileID: 319046638}
   - component: {fileID: 319046640}
   - component: {fileID: 319046641}
+  - component: {fileID: 319046642}
+  - component: {fileID: 319046643}
   m_Layer: 0
   m_Name: EnemyNinja
   m_TagString: EnemyNinja
@@ -478,9 +520,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4195091448304512128, guid: 80b446f81286e944fbce66d743c29510, type: 3}
+  m_Sprite: {fileID: -2767967584438095607, guid: 2117dee770aa72c46a6fbcf967b63e4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -498,8 +540,8 @@ Transform:
   m_GameObject: {fileID: 319046637}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.3821, y: 3.25, z: 0}
-  m_LocalScale: {x: -0.3125617, y: 0.5316665, z: 1}
+  m_LocalPosition: {x: 5.3821, y: 3.17, z: 0}
+  m_LocalScale: {x: 9.066717, y: 8.857733, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -538,17 +580,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.39087594, y: -0.06565285}
+  m_Offset: {x: -0.0003350228, y: -0.00046595186}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.73, y: 7.94}
+    oldSize: {x: 0.44, y: 0.45}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.796995, y: 7.7622995}
+  m_Size: {x: 0.43455955, y: 0.44340748}
   m_EdgeRadius: 0
 --- !u!50 &319046641
 Rigidbody2D:
@@ -577,6 +619,44 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &319046642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319046637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f67a7273863f04298f059fd84d8629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 5
+  Direction: 1
+  walkTimer: 0
+  walkCooldown: 1.5
+--- !u!95 &319046643
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319046637}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f9177c8908b2a9489c6d2f288ab9947, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,7 +979,7 @@ Transform:
   m_GameObject: {fileID: 1069361284}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.13, y: 3.63, z: 0}
+  m_LocalPosition: {x: -5.13, y: 3.15, z: 0}
   m_LocalScale: {x: 9.066717, y: 8.857733, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -939,7 +1019,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0009430796, y: 0.0013933033}
+  m_Offset: {x: -0.00046168268, y: 0.00014068186}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -949,7 +1029,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.45034024, y: 0.4587383}
+  m_Size: {x: 0.43363896, y: 0.4438006}
   m_EdgeRadius: 0
 --- !u!50 &1069361288
 Rigidbody2D:
@@ -990,8 +1070,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c8adfff518c9245bd379ac38d3c545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterRunSpeed: 15
-  characterWalkSpeed: 6
+  characterRunSpeed: 7.5
+  characterWalkSpeed: 5
   shurikenSpeed: 15
   jumpForce: 10
   direction: 1
@@ -1045,6 +1125,8 @@ GameObject:
   - component: {fileID: 1330894820}
   - component: {fileID: 1330894819}
   - component: {fileID: 1330894818}
+  - component: {fileID: 1330894822}
+  - component: {fileID: 1330894823}
   m_Layer: 0
   m_Name: EnemyNinja (1)
   m_TagString: EnemyNinja
@@ -1113,17 +1195,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.39087594, y: -0.06565285}
+  m_Offset: {x: 0.001186274, y: -0.0004839599}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.73, y: 7.94}
+    oldSize: {x: 0.44, y: 0.45}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.796995, y: 7.7622995}
+  m_Size: {x: 0.43503642, y: 0.4462785}
   m_EdgeRadius: 0
 --- !u!212 &1330894820
 SpriteRenderer:
@@ -1169,9 +1251,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4195091448304512128, guid: 80b446f81286e944fbce66d743c29510, type: 3}
+  m_Sprite: {fileID: -2767967584438095607, guid: 2117dee770aa72c46a6fbcf967b63e4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -1190,11 +1272,49 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 13.96, y: 3.25, z: 0}
-  m_LocalScale: {x: -0.3125617, y: 0.5316665, z: 1}
+  m_LocalScale: {x: 9.066717, y: 8.857733, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1330894822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330894817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f67a7273863f04298f059fd84d8629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 5
+  Direction: 1
+  walkTimer: 0
+  walkCooldown: 1.5
+--- !u!95 &1330894823
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330894817}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f9177c8908b2a9489c6d2f288ab9947, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

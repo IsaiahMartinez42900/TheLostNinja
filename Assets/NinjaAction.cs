@@ -6,8 +6,8 @@ using static UnityEditorInternal.ReorderableList;
 public class NinjaAction : MonoBehaviour
 {  
     private Rigidbody2D rb;
-    public float characterRunSpeed = 9.0f;
-    public float characterWalkSpeed = 6.0f;
+    public float characterRunSpeed = 7.5f;
+    public float characterWalkSpeed = 5.0f;
 
     public float shurikenSpeed = 15.0f;
     private bool hasLaunched = false;
