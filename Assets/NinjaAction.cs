@@ -59,7 +59,7 @@ public class NinjaAction : MonoBehaviour
             //Character movement
 
             //float move = 0f;
-            int direction = 1;
+            //int direction = 1;
             if (Input.GetKey(KeyCode.D))
             {
                 move = 1f;
@@ -138,8 +138,8 @@ public class NinjaAction : MonoBehaviour
             //hasLaunched = true;
             GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
                s.GetComponent<Shuriken>().direction = direction;
-           // shurikenTimer = shurikenCooldown;
-    
+            // shurikenTimer = shurikenCooldown;
+            Debug.Log(direction);
             currentShurikens--;
              /*if (currentShurikens <= 3)
             {

@@ -18,7 +18,7 @@ public class Shuriken : MonoBehaviour
         transform.Translate(xMove, 0, 0);
         //transform.rotation = Quaternion.Euler(45, 0, 0);
         //transform.eulerAngles = new Vector3(45, 0, 0);
-        transform.Rotate(30, 0 * Time.deltaTime, 0);
+        transform.Rotate(30,0 * Time.deltaTime, 0);
 
 
     }

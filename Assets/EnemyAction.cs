@@ -5,16 +5,22 @@ using UnityEngine;
 public class EnemyAction : MonoBehaviour
 {
     public float enemySpeed = 5f;
+    private float currentEnemySpeed; //New Line
     public float Direction = -1f;
     public float walkTimer = 0f;
     public float walkCooldown = 1.5f;
-    //public float stopCooldown = 1f;
-    //public float stopTimer = 0f;
+    public float stopCooldown = 5f;
+    public float stopTimer = 0f;
+
+    public float detectRange = 5f;
+    public Transform player;
     private Animator anim;
-    
+    public GameObject shurikenPrefab;
+
     void Start()
     {
         anim = GetComponent<Animator>();
+        currentEnemySpeed = enemySpeed;
        
     }
 
@@ -23,23 +29,40 @@ public class EnemyAction : MonoBehaviour
     {
         
         walkTimer += Time.deltaTime;
-        transform.Translate(enemySpeed * Time.deltaTime * Direction, 0, 0);
-        if(walkTimer >= walkCooldown)
+        transform.Translate(currentEnemySpeed * Time.deltaTime * Direction, 0, 0);
+        anim.SetBool("Walk", true);
+        if (walkTimer >= walkCooldown)
         {
-            Direction *= -1f;
-            walkTimer = 0f;    
+            anim.SetBool("Walk", false);
+            currentEnemySpeed = 0;
+            if(stopTimer < stopCooldown)
+            {
+                stopTimer += Time.deltaTime;
+                
+            }
+            else
+            {
+                Direction *= -1f;
+                walkTimer = 0f;
+                currentEnemySpeed = enemySpeed;
+                stopTimer = 0;
+                
+            }
+                
             
         }
-        //Trying to make a stop delay after moving to one side
-        /*if(walkTimer == 0f)
+        float distance = Vector2.Distance(transform.position, player.position);
+        if (distance < detectRange)
         {
-            stopTimer += Time.deltaTime;
+            //GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
+            //s.GetComponent<Shuriken>().direction = direction;
+            Debug.Log("Kill Him");
+
         }
-        if(stopTimer >= stopCooldown)
-        {
-            walkTimer = 0f;
-        }
-        */
+        
+            
+        
+
     }
     
     
