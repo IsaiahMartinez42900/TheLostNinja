@@ -28,9 +28,13 @@ public class Shuriken : MonoBehaviour
 
         if ((collision.gameObject.CompareTag("EnemyNinja")))
         {
-            Destroy(gameObject);
-            Destroy(collision.gameObject);
+            Destroy(gameObject); //Destroys shuriken
+            Destroy(collision.gameObject); //Destroys enemyninja
 
+        }
+        if ((collision.gameObject.CompareTag("Character")))
+        {
+            Destroy(gameObject); //Destroys shuriken
         }
 
     }

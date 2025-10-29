@@ -13,12 +13,19 @@ public class EnemyAction : MonoBehaviour
     public float stopTimer = 0f;
 
     public float detectRange = 5f;
+
+    public int maxShurikens = 1;
+    public int currentShurikens = 0;
+    public float shurikenTimer = 0f;
+    public float shurikenCooldown = 1f;
+
     public Transform player;
     private Animator anim;
     public GameObject shurikenPrefab;
 
     void Start()
     {
+        currentShurikens = maxShurikens;
         anim = GetComponent<Animator>();
         currentEnemySpeed = enemySpeed;
        
@@ -51,17 +58,31 @@ public class EnemyAction : MonoBehaviour
                 
             
         }
+
+        if (shurikenTimer > 0f) shurikenTimer -= Time.deltaTime;
         float distance = Vector2.Distance(transform.position, player.position);
-        if (distance < detectRange)
+        if (distance <= detectRange && currentShurikens > 0 && shurikenTimer <= 0f)
         {
-            //GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
-            //s.GetComponent<Shuriken>().direction = direction;
+            Vector2 direction = (player.position - transform.position).normalized;
+            GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
+            s.GetComponent<Shuriken>().direction = Direction;
+            currentShurikens--;
+            shurikenTimer = shurikenCooldown;
             Debug.Log("Kill Him");
+            Debug.Log("Enemy shuriken" + Direction);
 
         }
-        
-            
-        
+
+        if (currentShurikens < maxShurikens && shurikenTimer <= 0f)
+        {
+            currentShurikens++;
+            shurikenTimer = shurikenCooldown;
+            anim.SetTrigger("ShurikenThrow");
+
+        }
+
+
+
 
     }
     

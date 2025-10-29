@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 169039359}
   - component: {fileID: 169039363}
   - component: {fileID: 169039364}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyNinja (2)
   m_TagString: EnemyNinja
   m_Icon: {fileID: 0}
@@ -524,7 +524,7 @@ MonoBehaviour:
   stopTimer: 0
   detectRange: 13
   player: {fileID: 1069361286}
-  shurikenPrefab: {fileID: 5098161895077773909, guid: c4efec12096792b48a2f4c3a3b3c927b, type: 3}
+  shurikenPrefab: {fileID: 5098161895077773909, guid: 6ee35ab733eb73341b23e15d676974d6, type: 3}
 --- !u!95 &169039364
 Animator:
   serializedVersion: 7
@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 319046641}
   - component: {fileID: 319046642}
   - component: {fileID: 319046643}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyNinja
   m_TagString: EnemyNinja
   m_Icon: {fileID: 0}
@@ -731,7 +731,7 @@ MonoBehaviour:
   stopTimer: 0
   detectRange: 13
   player: {fileID: 1069361286}
-  shurikenPrefab: {fileID: 5098161895077773909, guid: c4efec12096792b48a2f4c3a3b3c927b, type: 3}
+  shurikenPrefab: {fileID: 5098161895077773909, guid: 6ee35ab733eb73341b23e15d676974d6, type: 3}
 --- !u!95 &319046643
 Animator:
   serializedVersion: 7
@@ -1398,7 +1398,7 @@ GameObject:
   - component: {fileID: 1330894818}
   - component: {fileID: 1330894822}
   - component: {fileID: 1330894823}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyNinja (1)
   m_TagString: EnemyNinja
   m_Icon: {fileID: 0}
@@ -1568,7 +1568,7 @@ MonoBehaviour:
   stopTimer: 0
   detectRange: 13
   player: {fileID: 1069361286}
-  shurikenPrefab: {fileID: 5098161895077773909, guid: c4efec12096792b48a2f4c3a3b3c927b, type: 3}
+  shurikenPrefab: {fileID: 5098161895077773909, guid: 6ee35ab733eb73341b23e15d676974d6, type: 3}
 --- !u!95 &1330894823
 Animator:
   serializedVersion: 7

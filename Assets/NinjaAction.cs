@@ -10,9 +10,7 @@ public class NinjaAction : MonoBehaviour
     public float characterWalkSpeed = 5.0f;
 
     public float shurikenSpeed = 15.0f;
-    private bool hasLaunched = false;
     private bool isCharacter = false;
-    private bool isShuriken = false;
 
     public float jumpForce = 10f;
     private bool isGrounded;
@@ -23,11 +21,6 @@ public class NinjaAction : MonoBehaviour
     private float shurikenCooldown = 1.5f;
     public int maxShurikens = 4;
     private int currentShurikens;
-
-    //private int shurikenCounter = 0;
-   // private float cooldownTimer = 0f;
-    //private bool isOnCooldown;
-    
 
     private Animator anim;
     public GameObject shurikenPrefab;
@@ -45,7 +38,7 @@ public class NinjaAction : MonoBehaviour
         else if (this.CompareTag("CharacterShuriken"))
         {
             isCharacter = false;
-            isShuriken = true;
+            //isShuriken = true;
         }
 
     }
@@ -58,8 +51,7 @@ public class NinjaAction : MonoBehaviour
 
             //Character movement
 
-            //float move = 0f;
-            //int direction = 1;
+            
             if (Input.GetKey(KeyCode.D))
             {
                 move = 1f;
@@ -105,16 +97,6 @@ public class NinjaAction : MonoBehaviour
             }
         }
 
-      // HELP NEEDED
-       /* if (isOnCooldown)
-        {
-            shurikenTimer -= Time.deltaTime;
-            if (shurikenTimer <= 0f)
-            {
-                isOnCooldown = false;
-                currentShurikens = maxShurikens;
-            }
-        }*/
        if (currentShurikens < maxShurikens)
         {
             if (shurikenTimer < shurikenCooldown)
@@ -132,20 +114,15 @@ public class NinjaAction : MonoBehaviour
  
         if (Input.GetKeyDown(KeyCode.Space) && currentShurikens > 0) //&& !isOnCooldown)
             {
-           // anim.SetTrigger("ShurikenThrow");
+           
             anim.SetBool("ShurikenThrow", true);
 
-            //hasLaunched = true;
+            
             GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
                s.GetComponent<Shuriken>().direction = direction;
-            // shurikenTimer = shurikenCooldown;
+            
             Debug.Log(direction);
-            currentShurikens--;
-             /*if (currentShurikens <= 3)
-            {
-                isOnCooldown = true;
-                shurikenTimer = 3f;
-            }   */     
+            currentShurikens--;                 
             } 
         
 
