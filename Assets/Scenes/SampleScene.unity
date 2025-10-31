@@ -523,8 +523,13 @@ MonoBehaviour:
   stopCooldown: 2.5
   stopTimer: 0
   detectRange: 13
+  maxShurikens: 1
+  currentShurikens: 0
+  shurikenTimer: 0
+  shurikenCooldown: 1
   player: {fileID: 1069361286}
   shurikenPrefab: {fileID: 5098161895077773909, guid: 6ee35ab733eb73341b23e15d676974d6, type: 3}
+  enemySpriteRenderer: {fileID: 0}
 --- !u!95 &169039364
 Animator:
   serializedVersion: 7
@@ -730,8 +735,13 @@ MonoBehaviour:
   stopCooldown: 2
   stopTimer: 0
   detectRange: 13
+  maxShurikens: 1
+  currentShurikens: 0
+  shurikenTimer: 0
+  shurikenCooldown: 1
   player: {fileID: 1069361286}
   shurikenPrefab: {fileID: 5098161895077773909, guid: 6ee35ab733eb73341b23e15d676974d6, type: 3}
+  enemySpriteRenderer: {fileID: 0}
 --- !u!95 &319046643
 Animator:
   serializedVersion: 7
@@ -1567,8 +1577,13 @@ MonoBehaviour:
   stopCooldown: 3
   stopTimer: 0
   detectRange: 13
+  maxShurikens: 1
+  currentShurikens: 0
+  shurikenTimer: 0
+  shurikenCooldown: 1
   player: {fileID: 1069361286}
   shurikenPrefab: {fileID: 5098161895077773909, guid: 6ee35ab733eb73341b23e15d676974d6, type: 3}
+  enemySpriteRenderer: {fileID: 0}
 --- !u!95 &1330894823
 Animator:
   serializedVersion: 7

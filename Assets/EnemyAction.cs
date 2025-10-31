@@ -19,16 +19,21 @@ public class EnemyAction : MonoBehaviour
     public float shurikenTimer = 0f;
     public float shurikenCooldown = 1f;
 
+    private bool facedDirectionThrow;
+
     public Transform player;
     private Animator anim;
     public GameObject shurikenPrefab;
+    public SpriteRenderer enemySpriteRenderer;
 
     void Start()
     {
         currentShurikens = maxShurikens;
         anim = GetComponent<Animator>();
         currentEnemySpeed = enemySpeed;
-       
+        enemySpriteRenderer = GetComponent<SpriteRenderer>();
+        enemySpriteRenderer.flipX = false;
+
     }
 
     
@@ -45,7 +50,7 @@ public class EnemyAction : MonoBehaviour
             if(stopTimer < stopCooldown)
             {
                 stopTimer += Time.deltaTime;
-                
+                 
             }
             else
             {
@@ -54,22 +59,38 @@ public class EnemyAction : MonoBehaviour
                 currentEnemySpeed = enemySpeed;
                 stopTimer = 0;
                 
+                
+            }
+            if (Direction < 0f)
+            {
+                enemySpriteRenderer.flipX = true;
+            } else
+            {
+                enemySpriteRenderer.flipX = false;
             }
                 
             
         }
 
-        if (shurikenTimer > 0f) shurikenTimer -= Time.deltaTime;
+        if (shurikenTimer > 0f)
+        {
+            shurikenTimer -= Time.deltaTime;
+        }
         float distance = Vector2.Distance(transform.position, player.position);
         if (distance <= detectRange && currentShurikens > 0 && shurikenTimer <= 0f)
         {
             Vector2 direction = (player.position - transform.position).normalized;
-            GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
-            s.GetComponent<Shuriken>().direction = Direction;
+            // Trying to have enemies shoot player if they face his direction
+            /*if (Direction < 0f)
+            {*/
+                GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
+                s.GetComponent<Shuriken>().direction = Direction;
+           /* }*/
             currentShurikens--;
             shurikenTimer = shurikenCooldown;
             Debug.Log("Kill Him");
             Debug.Log("Enemy shuriken" + Direction);
+            
 
         }
 
