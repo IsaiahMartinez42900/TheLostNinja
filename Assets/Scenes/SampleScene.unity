@@ -498,7 +498,7 @@ Transform:
   m_GameObject: {fileID: 169039358}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.65, y: 3.25, z: 0}
+  m_LocalPosition: {x: 34.7, y: 3.25, z: 0}
   m_LocalScale: {x: 9.066717, y: 8.857733, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1354,7 +1354,7 @@ MonoBehaviour:
   characterRunSpeed: 7.5
   characterWalkSpeed: 5
   shurikenSpeed: 15
-  jumpForce: 25
+  jumpForce: 30
   direction: 1
   maxShurikens: 4
   shurikenPrefab: {fileID: 5098161895077773909, guid: c4efec12096792b48a2f4c3a3b3c927b, type: 3}
@@ -1552,7 +1552,7 @@ Transform:
   m_GameObject: {fileID: 1330894817}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.96, y: 3.25, z: 0}
+  m_LocalPosition: {x: 17.4, y: 3.25, z: 0}
   m_LocalScale: {x: 9.066717, y: 8.857733, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1687,7 +1687,7 @@ Transform:
   m_GameObject: {fileID: 1865877116}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.483612, y: 6.63, z: 0}
+  m_LocalPosition: {x: 67.6, y: 6.63, z: 0}
   m_LocalScale: {x: 12.737137, y: 17.15822, z: 6.315831}
   m_ConstrainProportionsScale: 0
   m_Children: []

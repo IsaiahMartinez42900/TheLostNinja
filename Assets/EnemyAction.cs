@@ -1,11 +1,11 @@
 using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
+//using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class EnemyAction : MonoBehaviour
 {
     public float enemySpeed = 5f;
-    private float currentEnemySpeed; //New Line
+    private float currentEnemySpeed; 
     public float Direction = -1f;
     public float walkTimer = 0f;
     public float walkCooldown = 1.5f;
@@ -25,6 +25,7 @@ public class EnemyAction : MonoBehaviour
     private Animator anim;
     public GameObject shurikenPrefab;
     public SpriteRenderer enemySpriteRenderer;
+    private LayerMask layerMask; //new line
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class EnemyAction : MonoBehaviour
         currentEnemySpeed = enemySpeed;
         enemySpriteRenderer = GetComponent<SpriteRenderer>();
         enemySpriteRenderer.flipX = false;
+        layerMask = LayerMask.GetMask("Character"); //new line
 
     }
 
@@ -81,15 +83,22 @@ public class EnemyAction : MonoBehaviour
         {
             Vector2 direction = (player.position - transform.position).normalized;
             // Trying to have enemies shoot player if they face his direction
-            /*if (Direction < 0f)
-            {*/
+            
+            var hits = Physics2D.RaycastAll(transform.position, transform.right * Direction, detectRange, layerMask); //new line
+            if (hits.Length > 0) //new line                                                               
+            {
                 GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
                 s.GetComponent<Shuriken>().direction = Direction;
-           /* }*/
-            currentShurikens--;
-            shurikenTimer = shurikenCooldown;
-            Debug.Log("Kill Him");
-            Debug.Log("Enemy shuriken" + Direction);
+                currentShurikens--;
+                shurikenTimer = shurikenCooldown;
+                Debug.Log("Kill Him");
+                Debug.Log("Enemy shuriken" + Direction);
+                anim.SetTrigger("ShurikenThrow");
+            }
+                
+           
+            
+           
             
 
         }
@@ -98,7 +107,7 @@ public class EnemyAction : MonoBehaviour
         {
             currentShurikens++;
             shurikenTimer = shurikenCooldown;
-            anim.SetTrigger("ShurikenThrow");
+            //anim.SetTrigger("ShurikenThrow");
 
         }
 

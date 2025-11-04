@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HURT (FLAMING SWORD)_0: -7538709160421141474
+      HURT (FLAMING SWORD)_1: 4246100150918717534
+      HURT (FLAMING SWORD)_2: -234326280481128401
+      HURT (FLAMING SWORD)_3: -4474270460277676973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

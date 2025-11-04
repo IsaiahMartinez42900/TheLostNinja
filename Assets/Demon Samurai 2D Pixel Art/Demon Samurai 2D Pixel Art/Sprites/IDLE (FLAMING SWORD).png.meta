@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IDLE (FLAMING SWORD)_0: 1513902160811838932
+      IDLE (FLAMING SWORD)_1: 1925029505131965261
+      IDLE (FLAMING SWORD)_2: -1686457312679910543
+      IDLE (FLAMING SWORD)_3: -9102156297382253783
+      IDLE (FLAMING SWORD)_4: 994470691796035633
+      IDLE (FLAMING SWORD)_5: 6656099918571349707
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

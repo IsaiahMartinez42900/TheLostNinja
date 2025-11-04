@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RUN (FLAMING SWORD)_0: -7559637446464829598
+      RUN (FLAMING SWORD)_1: 3226962168225316987
+      RUN (FLAMING SWORD)_2: -8507847335407355632
+      RUN (FLAMING SWORD)_3: -1748482149210149379
+      RUN (FLAMING SWORD)_4: -4594542464004144625
+      RUN (FLAMING SWORD)_5: 7901629565876178619
+      RUN (FLAMING SWORD)_6: 6907575970955607641
+      RUN (FLAMING SWORD)_7: -240870782119167357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

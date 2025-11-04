@@ -1,7 +1,7 @@
 using System.Threading;
-using UnityEditor.Experimental.GraphView;
+//using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using static UnityEditorInternal.ReorderableList;
+//using static UnityEditorInternal.ReorderableList;
 
 public class NinjaAction : MonoBehaviour
 {  
