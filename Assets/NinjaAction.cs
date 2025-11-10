@@ -136,7 +136,7 @@ public class NinjaAction : MonoBehaviour
             isGrounded = false;
             anim.SetBool("Jump", true);
             Debug.Log("jumped");
-
+            AudioManager.instance.PlaySounds(AudioManager.instance.NinjaJump);
         }
     }
 
