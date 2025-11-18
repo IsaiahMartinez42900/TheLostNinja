@@ -31,7 +31,7 @@ public class Shuriken : MonoBehaviour
 
         if ((collision.gameObject.CompareTag("EnemyNinja")))
         {
-            //audiosource.PlayOneShot(shurikenImpact);
+            
             Destroy(gameObject); //Destroys shuriken
             Destroy(collision.gameObject); //Destroys enemyninja
             AudioManager.instance.PlaySounds(AudioManager.instance.shurikenImpact);
@@ -41,7 +41,7 @@ public class Shuriken : MonoBehaviour
         }
         if ((collision.gameObject.CompareTag("Character")))
         {
-           // audiosource.PlayOneShot(shurikenImpact);
+           
             Destroy(gameObject); //Destroys shuriken
             AudioManager.instance.PlaySounds(AudioManager.instance.shurikenImpact);
         }

@@ -1,0 +1,2496 @@
+fileFormatVersion: 2
+guid: 0077f3d91e569f74ebf25db083b56e28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9174169640305910509
+    second: NinjaRed_spritesheet_0
+  - first:
+      213: -4203172593241232924
+    second: NinjaRed_spritesheet_1
+  - first:
+      213: -7741543656977092640
+    second: NinjaRed_spritesheet_2
+  - first:
+      213: -1804630271844614340
+    second: NinjaRed_spritesheet_3
+  - first:
+      213: -5781567246171657638
+    second: NinjaRed_spritesheet_4
+  - first:
+      213: -1585982820914610788
+    second: NinjaRed_spritesheet_5
+  - first:
+      213: -8376700532604034736
+    second: NinjaRed_spritesheet_6
+  - first:
+      213: -1190209546016099789
+    second: NinjaRed_spritesheet_7
+  - first:
+      213: 702507021356245691
+    second: NinjaRed_spritesheet_8
+  - first:
+      213: 1515466868956620822
+    second: NinjaRed_spritesheet_9
+  - first:
+      213: -8213694679195535032
+    second: NinjaRed_spritesheet_10
+  - first:
+      213: -6891153555068194109
+    second: NinjaRed_spritesheet_11
+  - first:
+      213: 3015622150956863429
+    second: NinjaRed_spritesheet_12
+  - first:
+      213: -5670559125058798650
+    second: NinjaRed_spritesheet_13
+  - first:
+      213: 8296888370055038889
+    second: NinjaRed_spritesheet_14
+  - first:
+      213: 4309078499250529002
+    second: NinjaRed_spritesheet_15
+  - first:
+      213: -1213344586736230747
+    second: NinjaRed_spritesheet_16
+  - first:
+      213: -7370540839563800392
+    second: NinjaRed_spritesheet_17
+  - first:
+      213: 3681777055241659414
+    second: NinjaRed_spritesheet_18
+  - first:
+      213: 5407157388839405207
+    second: NinjaRed_spritesheet_19
+  - first:
+      213: 8381913887144085494
+    second: NinjaRed_spritesheet_20
+  - first:
+      213: 7710086894116856191
+    second: NinjaRed_spritesheet_21
+  - first:
+      213: 1731436191878590157
+    second: NinjaRed_spritesheet_22
+  - first:
+      213: 4793922622789670744
+    second: NinjaRed_spritesheet_23
+  - first:
+      213: 5890554124266754102
+    second: NinjaRed_spritesheet_24
+  - first:
+      213: 3781435330834113273
+    second: NinjaRed_spritesheet_25
+  - first:
+      213: -3318175539826976140
+    second: NinjaRed_spritesheet_26
+  - first:
+      213: -5464980039455898173
+    second: NinjaRed_spritesheet_27
+  - first:
+      213: -8118049573820893709
+    second: NinjaRed_spritesheet_28
+  - first:
+      213: 7338857098589603262
+    second: NinjaRed_spritesheet_29
+  - first:
+      213: -7962506272945705022
+    second: NinjaRed_spritesheet_30
+  - first:
+      213: 6346867127780666420
+    second: NinjaRed_spritesheet_31
+  - first:
+      213: -2366765253437749062
+    second: NinjaRed_spritesheet_32
+  - first:
+      213: 5170115913738112769
+    second: NinjaRed_spritesheet_33
+  - first:
+      213: 8461351656654341840
+    second: NinjaRed_spritesheet_34
+  - first:
+      213: 798723161416828154
+    second: NinjaRed_spritesheet_35
+  - first:
+      213: -1854134500357165130
+    second: NinjaRed_spritesheet_36
+  - first:
+      213: -8822490446238143937
+    second: NinjaRed_spritesheet_37
+  - first:
+      213: 1949502676340116321
+    second: NinjaRed_spritesheet_38
+  - first:
+      213: -3556779896330046415
+    second: NinjaRed_spritesheet_39
+  - first:
+      213: -4457131925428177122
+    second: NinjaRed_spritesheet_40
+  - first:
+      213: 1244194217855569662
+    second: NinjaRed_spritesheet_41
+  - first:
+      213: -5351088203814451458
+    second: NinjaRed_spritesheet_42
+  - first:
+      213: -8668208605969789149
+    second: NinjaRed_spritesheet_43
+  - first:
+      213: -4725740194415296849
+    second: NinjaRed_spritesheet_44
+  - first:
+      213: -8059080634687103996
+    second: NinjaRed_spritesheet_45
+  - first:
+      213: 3881917578467707784
+    second: NinjaRed_spritesheet_46
+  - first:
+      213: -556361299074172608
+    second: NinjaRed_spritesheet_47
+  - first:
+      213: 3467239497687965045
+    second: NinjaRed_spritesheet_48
+  - first:
+      213: -3598957066548642351
+    second: NinjaRed_spritesheet_49
+  - first:
+      213: -1510489951664130902
+    second: NinjaRed_spritesheet_50
+  - first:
+      213: 5883840762505661669
+    second: NinjaRed_spritesheet_51
+  - first:
+      213: 6242891760565985680
+    second: NinjaRed_spritesheet_52
+  - first:
+      213: 2414487551806497950
+    second: NinjaRed_spritesheet_53
+  - first:
+      213: -3073020567013352986
+    second: NinjaRed_spritesheet_54
+  - first:
+      213: -5230124912983473235
+    second: NinjaRed_spritesheet_55
+  - first:
+      213: 2245409905754118586
+    second: NinjaRed_spritesheet_56
+  - first:
+      213: 1815017208072323677
+    second: NinjaRed_spritesheet_57
+  - first:
+      213: 7780903186757057176
+    second: NinjaRed_spritesheet_58
+  - first:
+      213: -3468274205990709743
+    second: NinjaRed_spritesheet_59
+  - first:
+      213: -975156955344862485
+    second: NinjaRed_spritesheet_60
+  - first:
+      213: 9010340411734566828
+    second: NinjaRed_spritesheet_61
+  - first:
+      213: -7092178787802983311
+    second: NinjaRed_spritesheet_62
+  - first:
+      213: -6166350925466079338
+    second: NinjaRed_spritesheet_63
+  - first:
+      213: -8739669387114699742
+    second: NinjaRed_spritesheet_64
+  - first:
+      213: 1275602717812926951
+    second: NinjaRed_spritesheet_65
+  - first:
+      213: -5354302384111479033
+    second: NinjaRed_spritesheet_66
+  - first:
+      213: 8285019152427737692
+    second: NinjaRed_spritesheet_67
+  - first:
+      213: -2156774990145220028
+    second: NinjaRed_spritesheet_68
+  - first:
+      213: 2310105955570598461
+    second: NinjaRed_spritesheet_69
+  - first:
+      213: 4146598302217142176
+    second: NinjaRed_spritesheet_70
+  - first:
+      213: 6416040918947641580
+    second: NinjaRed_spritesheet_71
+  - first:
+      213: -5696232979584986890
+    second: NinjaRed_spritesheet_72
+  - first:
+      213: -24505672572272187
+    second: NinjaRed_spritesheet_73
+  - first:
+      213: 8944901800290966175
+    second: NinjaRed_spritesheet_74
+  - first:
+      213: -4268041118064117427
+    second: NinjaRed_spritesheet_75
+  - first:
+      213: -1825126491292583010
+    second: NinjaRed_spritesheet_76
+  - first:
+      213: -6718225163707889982
+    second: NinjaRed_spritesheet_77
+  - first:
+      213: -2981004354514104705
+    second: NinjaRed_spritesheet_78
+  - first:
+      213: 5584820921822423268
+    second: NinjaRed_spritesheet_79
+  - first:
+      213: -4856659036064118345
+    second: NinjaRed_spritesheet_80
+  - first:
+      213: -8619904565696726893
+    second: NinjaRed_spritesheet_81
+  - first:
+      213: 3428349319170443757
+    second: NinjaRed_spritesheet_82
+  - first:
+      213: -512733253150548868
+    second: NinjaRed_spritesheet_83
+  - first:
+      213: -9067786215020495590
+    second: NinjaRed_spritesheet_84
+  - first:
+      213: 4661603025713467472
+    second: NinjaRed_spritesheet_85
+  - first:
+      213: -3102230309244858580
+    second: NinjaRed_spritesheet_86
+  - first:
+      213: -7346934445324295249
+    second: NinjaRed_spritesheet_87
+  - first:
+      213: 61188956455701847
+    second: NinjaRed_spritesheet_88
+  - first:
+      213: 6308602999378169698
+    second: NinjaRed_spritesheet_89
+  - first:
+      213: 1226410324739690735
+    second: NinjaRed_spritesheet_90
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1368
+        width: 54
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de26b975ea2315f70800000000000000
+      internalID: 9174169640305910509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1368
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9e23abbc45ba5c0800000000000000
+      internalID: -4203172593241232924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1368
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efa3b87f03809490800000000000000
+      internalID: -7741543656977092640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1368
+        width: 95
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ff8cf345aa4f6e0800000000000000
+      internalID: -1804630271844614340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1368
+        width: 94
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aa7eeb83fb3cfa0800000000000000
+      internalID: -5781567246171657638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1368
+        width: 94
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d338bf6057df9e0800000000000000
+      internalID: -1585982820914610788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1368
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051af4c4f3bffbb80800000000000000
+      internalID: -8376700532604034736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1368
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3327e6159b68b7fe0800000000000000
+      internalID: -1190209546016099789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1368
+        width: 73
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb22824f96ecfb900800000000000000
+      internalID: 702507021356245691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1231
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61868098615080510800000000000000
+      internalID: 1515466868956620822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1231
+        width: 84
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849b8011538130e80800000000000000
+      internalID: -8213694679195535032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1231
+        width: 92
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c27d714a54bd50a0800000000000000
+      internalID: -6891153555068194109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1231
+        width: 83
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf459c6e54a9d920800000000000000
+      internalID: 3015622150956863429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1231
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb350905802e41b0800000000000000
+      internalID: -5670559125058798650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1231
+        width: 73
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a743368308742370800000000000000
+      internalID: 8296888370055038889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1231
+        width: 113
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2e919801ceccb30800000000000000
+      internalID: 4309078499250529002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1233
+        width: 105
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae9175e685592fe0800000000000000
+      internalID: -1213344586736230747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1233
+        width: 90
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b05a4f382496b990800000000000000
+      internalID: -7370540839563800392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1095
+        width: 105
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614ecdf89bc481330800000000000000
+      internalID: 3681777055241659414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1095
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796c66e2ff41a0b40800000000000000
+      internalID: 5407157388839405207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1101
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f70325654a825470800000000000000
+      internalID: 8381913887144085494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1095
+        width: 57
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71ea3f2e2bbffa60800000000000000
+      internalID: 7710086894116856191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1095
+        width: 58
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcead200b0c470810800000000000000
+      internalID: 1731436191878590157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1121
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8575614e93f678240800000000000000
+      internalID: 4793922622789670744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1153
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630d12b34c37fb150800000000000000
+      internalID: 5890554124266754102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1148
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2aa73066b5a7430800000000000000
+      internalID: 3781435330834113273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1153
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a193e4de873f1d0800000000000000
+      internalID: -3318175539826976140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1016
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c581abdb9d7824b0800000000000000
+      internalID: -5464980039455898173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1016
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5f4638ce4e65f80800000000000000
+      internalID: -8118049573820893709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1012
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb589c2f5abd8d560800000000000000
+      internalID: 7338857098589603262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1016
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf604f5bbe7f7190800000000000000
+      internalID: -7962506272945705022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 984
+        width: 56
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c68fb860a941850800000000000000
+      internalID: 6346867127780666420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 959
+        width: 58
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab80b1aaa8f872fd0800000000000000
+      internalID: -2366765253437749062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 959
+        width: 62
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f44f5f701ffb740800000000000000
+      internalID: 5170115913738112769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 959
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d68b866082cc6570800000000000000
+      internalID: 8461351656654341840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 991
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af48026cb72a51b00800000000000000
+      internalID: 798723161416828154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 854
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf2a6cde7ac446e0800000000000000
+      internalID: -1854134500357165130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 854
+        width: 77
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aa2b5cea7309580800000000000000
+      internalID: -8822490446238143937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 850
+        width: 122
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b0defea560e0b10800000000000000
+      internalID: 1949502676340116321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 852
+        width: 126
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1343ff66787c3aec0800000000000000
+      internalID: -3556779896330046415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 852
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17fcc3f0261522c0800000000000000
+      internalID: -4457131925428177122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 854
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe40e29c04444110800000000000000
+      internalID: 1244194217855569662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 854
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef64bd141ad1db5b0800000000000000
+      internalID: -5351088203814451458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 852
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fcf22f23654b780800000000000000
+      internalID: -8668208605969789149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 841
+        width: 120
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae371bc45cca6eb0800000000000000
+      internalID: -4725740194415296849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 705
+        width: 153
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cde319cd4682090800000000000000
+      internalID: -8059080634687103996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 711
+        width: 122
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b89e768775fd530800000000000000
+      internalID: 3881917578467707784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 711
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049b8e1a8586748f0800000000000000
+      internalID: -556361299074172608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 711
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d15e2f3fb1e1030800000000000000
+      internalID: 3467239497687965045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 718
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd7c76bd9fed0ec0800000000000000
+      internalID: -3598957066548642351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 718
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa433425469a90be0800000000000000
+      internalID: -1510489951664130902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 718
+        width: 105
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec0d14eff997a150800000000000000
+      internalID: 5883840762505661669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 718
+        width: 120
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091afbfdaf433a650800000000000000
+      internalID: 6242891760565985680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 686
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e946708c2abf18120800000000000000
+      internalID: 2414487551806497950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 549
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e913bb63107a55d0800000000000000
+      internalID: -3073020567013352986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 550
+        width: 145
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da303be1a1dda67b0800000000000000
+      internalID: -5230124912983473235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 550
+        width: 134
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab91e9f996c492f10800000000000000
+      internalID: 2245409905754118586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 550
+        width: 103
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d524f5cc88c303910800000000000000
+      internalID: 1815017208072323677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 549
+        width: 88
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89afb5e29325bfb60800000000000000
+      internalID: 7780903186757057176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 550
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11616404cf63edfc0800000000000000
+      internalID: -3468274205990709743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 549
+        width: 94
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be20b6c6aeb8772f0800000000000000
+      internalID: -975156955344862485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 550
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca729ca9dd82b0d70800000000000000
+      internalID: 9010340411734566828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 550
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174517de7f4839d90800000000000000
+      internalID: -7092178787802983311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 413
+        width: 103
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f61370188bc6aa0800000000000000
+      internalID: -6166350925466079338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 413
+        width: 118
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2242ca64ff476b680800000000000000
+      internalID: -8739669387114699742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 413
+        width: 175
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e923c5d9e9d3b110800000000000000
+      internalID: 1275602717812926951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 413
+        width: 133
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70712079952b1b5b0800000000000000
+      internalID: -5354302384111479033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 413
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5263c1f50d4af270800000000000000
+      internalID: 8285019152427737692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 413
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44292f3d2989112e0800000000000000
+      internalID: -2156774990145220028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 413
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32cc4b80252f0020800000000000000
+      internalID: 2310105955570598461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 413
+        width: 94
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aff3edaf2dab8930800000000000000
+      internalID: 4146598302217142176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 413
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8be3ed83b5a0950800000000000000
+      internalID: 6416040918947641580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 277
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0d8f5f84ae2f0b0800000000000000
+      internalID: -5696232979584986890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 277
+        width: 94
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1095b7830f8aff0800000000000000
+      internalID: -24505672572272187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 277
+        width: 109
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a58159bcca22c70800000000000000
+      internalID: 8944901800290966175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 277
+        width: 103
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49f607573fd4c4c0800000000000000
+      internalID: -4268041118064117427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 277
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bb9584029dba6e0800000000000000
+      internalID: -1825126491292583010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 277
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6c91ceec114c2a0800000000000000
+      internalID: -6718225163707889982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 277
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e4b47655851a6d0800000000000000
+      internalID: -2981004354514104705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 277
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8256be905418d40800000000000000
+      internalID: 5584820921822423268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 277
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b90530a65ea99cb0800000000000000
+      internalID: -4856659036064118345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 140
+        width: 94
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398f0ebb772ff5880800000000000000
+      internalID: -8619904565696726893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 140
+        width: 73
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de94b17aa81f39f20800000000000000
+      internalID: 3428349319170443757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 140
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c5e65a2d762e8f0800000000000000
+      internalID: -512733253150548868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 140
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1df48a0b70c82280800000000000000
+      internalID: -9067786215020495590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 140
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050998fe04751b040800000000000000
+      internalID: 4661603025713467472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 140
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f820658f9a2f4d0800000000000000
+      internalID: -3102230309244858580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 140
+        width: 111
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa32d563c027a0a90800000000000000
+      internalID: -7346934445324295249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 185
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d08bd180369d000800000000000000
+      internalID: 61188956455701847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 140
+        width: 122
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f46e6e009ac8750800000000000000
+      internalID: 6308602999378169698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NinjaRed_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 52
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe01bfa41b5150110800000000000000
+      internalID: 1226410324739690735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NinjaRed_spritesheet_0: 9174169640305910509
+      NinjaRed_spritesheet_1: -4203172593241232924
+      NinjaRed_spritesheet_10: -8213694679195535032
+      NinjaRed_spritesheet_11: -6891153555068194109
+      NinjaRed_spritesheet_12: 3015622150956863429
+      NinjaRed_spritesheet_13: -5670559125058798650
+      NinjaRed_spritesheet_14: 8296888370055038889
+      NinjaRed_spritesheet_15: 4309078499250529002
+      NinjaRed_spritesheet_16: -1213344586736230747
+      NinjaRed_spritesheet_17: -7370540839563800392
+      NinjaRed_spritesheet_18: 3681777055241659414
+      NinjaRed_spritesheet_19: 5407157388839405207
+      NinjaRed_spritesheet_2: -7741543656977092640
+      NinjaRed_spritesheet_20: 8381913887144085494
+      NinjaRed_spritesheet_21: 7710086894116856191
+      NinjaRed_spritesheet_22: 1731436191878590157
+      NinjaRed_spritesheet_23: 4793922622789670744
+      NinjaRed_spritesheet_24: 5890554124266754102
+      NinjaRed_spritesheet_25: 3781435330834113273
+      NinjaRed_spritesheet_26: -3318175539826976140
+      NinjaRed_spritesheet_27: -5464980039455898173
+      NinjaRed_spritesheet_28: -8118049573820893709
+      NinjaRed_spritesheet_29: 7338857098589603262
+      NinjaRed_spritesheet_3: -1804630271844614340
+      NinjaRed_spritesheet_30: -7962506272945705022
+      NinjaRed_spritesheet_31: 6346867127780666420
+      NinjaRed_spritesheet_32: -2366765253437749062
+      NinjaRed_spritesheet_33: 5170115913738112769
+      NinjaRed_spritesheet_34: 8461351656654341840
+      NinjaRed_spritesheet_35: 798723161416828154
+      NinjaRed_spritesheet_36: -1854134500357165130
+      NinjaRed_spritesheet_37: -8822490446238143937
+      NinjaRed_spritesheet_38: 1949502676340116321
+      NinjaRed_spritesheet_39: -3556779896330046415
+      NinjaRed_spritesheet_4: -5781567246171657638
+      NinjaRed_spritesheet_40: -4457131925428177122
+      NinjaRed_spritesheet_41: 1244194217855569662
+      NinjaRed_spritesheet_42: -5351088203814451458
+      NinjaRed_spritesheet_43: -8668208605969789149
+      NinjaRed_spritesheet_44: -4725740194415296849
+      NinjaRed_spritesheet_45: -8059080634687103996
+      NinjaRed_spritesheet_46: 3881917578467707784
+      NinjaRed_spritesheet_47: -556361299074172608
+      NinjaRed_spritesheet_48: 3467239497687965045
+      NinjaRed_spritesheet_49: -3598957066548642351
+      NinjaRed_spritesheet_5: -1585982820914610788
+      NinjaRed_spritesheet_50: -1510489951664130902
+      NinjaRed_spritesheet_51: 5883840762505661669
+      NinjaRed_spritesheet_52: 6242891760565985680
+      NinjaRed_spritesheet_53: 2414487551806497950
+      NinjaRed_spritesheet_54: -3073020567013352986
+      NinjaRed_spritesheet_55: -5230124912983473235
+      NinjaRed_spritesheet_56: 2245409905754118586
+      NinjaRed_spritesheet_57: 1815017208072323677
+      NinjaRed_spritesheet_58: 7780903186757057176
+      NinjaRed_spritesheet_59: -3468274205990709743
+      NinjaRed_spritesheet_6: -8376700532604034736
+      NinjaRed_spritesheet_60: -975156955344862485
+      NinjaRed_spritesheet_61: 9010340411734566828
+      NinjaRed_spritesheet_62: -7092178787802983311
+      NinjaRed_spritesheet_63: -6166350925466079338
+      NinjaRed_spritesheet_64: -8739669387114699742
+      NinjaRed_spritesheet_65: 1275602717812926951
+      NinjaRed_spritesheet_66: -5354302384111479033
+      NinjaRed_spritesheet_67: 8285019152427737692
+      NinjaRed_spritesheet_68: -2156774990145220028
+      NinjaRed_spritesheet_69: 2310105955570598461
+      NinjaRed_spritesheet_7: -1190209546016099789
+      NinjaRed_spritesheet_70: 4146598302217142176
+      NinjaRed_spritesheet_71: 6416040918947641580
+      NinjaRed_spritesheet_72: -5696232979584986890
+      NinjaRed_spritesheet_73: -24505672572272187
+      NinjaRed_spritesheet_74: 8944901800290966175
+      NinjaRed_spritesheet_75: -4268041118064117427
+      NinjaRed_spritesheet_76: -1825126491292583010
+      NinjaRed_spritesheet_77: -6718225163707889982
+      NinjaRed_spritesheet_78: -2981004354514104705
+      NinjaRed_spritesheet_79: 5584820921822423268
+      NinjaRed_spritesheet_8: 702507021356245691
+      NinjaRed_spritesheet_80: -4856659036064118345
+      NinjaRed_spritesheet_81: -8619904565696726893
+      NinjaRed_spritesheet_82: 3428349319170443757
+      NinjaRed_spritesheet_83: -512733253150548868
+      NinjaRed_spritesheet_84: -9067786215020495590
+      NinjaRed_spritesheet_85: 4661603025713467472
+      NinjaRed_spritesheet_86: -3102230309244858580
+      NinjaRed_spritesheet_87: -7346934445324295249
+      NinjaRed_spritesheet_88: 61188956455701847
+      NinjaRed_spritesheet_89: 6308602999378169698
+      NinjaRed_spritesheet_9: 1515466868956620822
+      NinjaRed_spritesheet_90: 1226410324739690735
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
