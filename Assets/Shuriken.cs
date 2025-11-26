@@ -6,11 +6,13 @@ public class Shuriken : MonoBehaviour
     private float speed = 20.5f;
     public float direction;
     
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         AudioManager.instance.PlaySounds(AudioManager.instance.shurikenThrow);
+        
     }
 
     // Update is called once per frame
@@ -33,10 +35,15 @@ public class Shuriken : MonoBehaviour
         {
             
             Destroy(gameObject); //Destroys shuriken
-            Destroy(collision.gameObject); //Destroys enemyninja
+            //Destroy(collision.gameObject); //Destroys enemyninja
             AudioManager.instance.PlaySounds(AudioManager.instance.shurikenImpact);
-
-
+            EnemyHealthController ehc = collision.gameObject.GetComponent<EnemyHealthController>();
+            if (ehc != null)
+            {
+                ehc.TakeDamage();
+            }
+            
+          
 
         }
         if ((collision.gameObject.CompareTag("Character")))
@@ -44,6 +51,13 @@ public class Shuriken : MonoBehaviour
            
             Destroy(gameObject); //Destroys shuriken
             AudioManager.instance.PlaySounds(AudioManager.instance.shurikenImpact);
+            HealthController hc = collision.gameObject.GetComponent<HealthController>();
+            if (hc != null)
+            {
+                
+                hc.TakeDamage();
+               
+            }
         }
 
     }

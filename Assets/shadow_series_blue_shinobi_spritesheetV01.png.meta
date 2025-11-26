@@ -386,12 +386,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 642
-        width: 25
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 23
+        y: 643
+        width: 23
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -408,12 +408,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_1
       rect:
         serializedVersion: 2
-        x: 97
-        y: 642
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 98
+        y: 643
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -430,12 +430,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_2
       rect:
         serializedVersion: 2
-        x: 183
-        y: 642
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 184
+        y: 643
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -452,12 +452,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_3
       rect:
         serializedVersion: 2
-        x: 269
-        y: 642
-        width: 44
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 270
+        y: 643
+        width: 42
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -474,12 +474,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_4
       rect:
         serializedVersion: 2
-        x: 355
-        y: 642
-        width: 44
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 356
+        y: 643
+        width: 42
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -496,12 +496,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_5
       rect:
         serializedVersion: 2
-        x: 441
-        y: 642
-        width: 44
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 442
+        y: 643
+        width: 42
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -518,12 +518,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_6
       rect:
         serializedVersion: 2
-        x: 527
-        y: 642
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 643
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -540,12 +540,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_7
       rect:
         serializedVersion: 2
-        x: 615
-        y: 642
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 616
+        y: 643
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -562,12 +562,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_8
       rect:
         serializedVersion: 2
-        x: 701
-        y: 642
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 702
+        y: 643
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -584,12 +584,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_9
       rect:
         serializedVersion: 2
-        x: 13
-        y: 578
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 14
+        y: 579
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -606,12 +606,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_10
       rect:
         serializedVersion: 2
-        x: 98
-        y: 578
-        width: 39
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 99
+        y: 579
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -628,12 +628,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_11
       rect:
         serializedVersion: 2
-        x: 183
-        y: 578
-        width: 43
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 184
+        y: 579
+        width: 41
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -650,12 +650,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_12
       rect:
         serializedVersion: 2
-        x: 270
-        y: 578
-        width: 39
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 271
+        y: 579
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -672,12 +672,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_13
       rect:
         serializedVersion: 2
-        x: 357
-        y: 578
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 358
+        y: 579
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -694,12 +694,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_14
       rect:
         serializedVersion: 2
-        x: 443
-        y: 578
-        width: 34
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 444
+        y: 579
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -716,12 +716,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_15
       rect:
         serializedVersion: 2
-        x: 516
-        y: 578
-        width: 53
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 517
+        y: 579
+        width: 51
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -738,12 +738,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_16
       rect:
         serializedVersion: 2
-        x: 605
-        y: 579
-        width: 49
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 606
+        y: 580
+        width: 47
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -760,12 +760,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_17
       rect:
         serializedVersion: 2
-        x: 698
-        y: 579
-        width: 42
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 699
+        y: 580
+        width: 40
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -782,12 +782,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_18
       rect:
         serializedVersion: 2
-        x: 4
-        y: 514
-        width: 49
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5
+        y: 515
+        width: 47
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -804,12 +804,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_19
       rect:
         serializedVersion: 2
-        x: 91
-        y: 514
-        width: 47
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 92
+        y: 515
+        width: 45
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -826,12 +826,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_20
       rect:
         serializedVersion: 2
-        x: 190
-        y: 517
-        width: 34
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 191
+        y: 518
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -848,12 +848,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_21
       rect:
         serializedVersion: 2
-        x: 278
-        y: 514
-        width: 27
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 279
+        y: 515
+        width: 25
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -870,12 +870,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_22
       rect:
         serializedVersion: 2
-        x: 364
-        y: 514
-        width: 27
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 365
+        y: 515
+        width: 25
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -892,12 +892,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_23
       rect:
         serializedVersion: 2
-        x: 451
-        y: 526
-        width: 26
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 452
+        y: 527
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -914,12 +914,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_24
       rect:
         serializedVersion: 2
-        x: 537
-        y: 541
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 538
+        y: 542
+        width: 27
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -936,12 +936,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_25
       rect:
         serializedVersion: 2
-        x: 622
-        y: 539
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 623
+        y: 540
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -958,12 +958,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_26
       rect:
         serializedVersion: 2
-        x: 706
-        y: 541
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 707
+        y: 542
+        width: 27
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -980,12 +980,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_27
       rect:
         serializedVersion: 2
-        x: 20
-        y: 477
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 478
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1002,12 +1002,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_28
       rect:
         serializedVersion: 2
-        x: 107
-        y: 477
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 478
+        width: 27
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1024,12 +1024,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_29
       rect:
         serializedVersion: 2
-        x: 192
-        y: 475
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 193
+        y: 476
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1046,12 +1046,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_30
       rect:
         serializedVersion: 2
-        x: 276
-        y: 477
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 277
+        y: 478
+        width: 27
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1068,12 +1068,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_31
       rect:
         serializedVersion: 2
-        x: 365
-        y: 462
-        width: 26
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 366
+        y: 463
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1090,12 +1090,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_32
       rect:
         serializedVersion: 2
-        x: 450
-        y: 450
-        width: 27
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 451
+        y: 451
+        width: 25
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1112,12 +1112,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_33
       rect:
         serializedVersion: 2
-        x: 534
-        y: 450
-        width: 29
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 535
+        y: 451
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1134,12 +1134,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_34
       rect:
         serializedVersion: 2
-        x: 613
-        y: 450
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 614
+        y: 451
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1156,12 +1156,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_35
       rect:
         serializedVersion: 2
-        x: 704
-        y: 465
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 705
+        y: 466
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1178,12 +1178,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_36
       rect:
         serializedVersion: 2
-        x: 15
-        y: 401
-        width: 32
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 402
+        width: 30
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1200,12 +1200,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_37
       rect:
         serializedVersion: 2
-        x: 96
-        y: 401
-        width: 36
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 97
+        y: 402
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1222,12 +1222,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_38
       rect:
         serializedVersion: 2
-        x: 178
-        y: 399
-        width: 57
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 179
+        y: 400
+        width: 55
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1244,12 +1244,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_39
       rect:
         serializedVersion: 2
-        x: 265
-        y: 400
-        width: 59
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 266
+        y: 401
+        width: 57
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1266,12 +1266,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_40
       rect:
         serializedVersion: 2
-        x: 351
-        y: 400
-        width: 41
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 401
+        width: 39
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1288,12 +1288,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_41
       rect:
         serializedVersion: 2
-        x: 437
-        y: 401
-        width: 38
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 402
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1310,12 +1310,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_42
       rect:
         serializedVersion: 2
-        x: 532
-        y: 401
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 533
+        y: 402
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1332,12 +1332,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_43
       rect:
         serializedVersion: 2
-        x: 609
-        y: 400
-        width: 41
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 610
+        y: 401
+        width: 39
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1354,12 +1354,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_44
       rect:
         serializedVersion: 2
-        x: 702
-        y: 395
-        width: 57
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 703
+        y: 396
+        width: 55
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1377,11 +1377,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 331
-        width: 71
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 332
+        width: 70
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1398,12 +1398,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_46
       rect:
         serializedVersion: 2
-        x: 88
-        y: 334
-        width: 57
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 89
+        y: 335
+        width: 55
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1420,12 +1420,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_47
       rect:
         serializedVersion: 2
-        x: 183
-        y: 334
-        width: 42
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 184
+        y: 335
+        width: 40
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1442,12 +1442,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_48
       rect:
         serializedVersion: 2
-        x: 269
-        y: 334
-        width: 41
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 270
+        y: 335
+        width: 39
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1464,12 +1464,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_49
       rect:
         serializedVersion: 2
-        x: 360
-        y: 337
-        width: 32
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 361
+        y: 338
+        width: 30
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1486,12 +1486,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_50
       rect:
         serializedVersion: 2
-        x: 446
-        y: 337
-        width: 31
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 447
+        y: 338
+        width: 29
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1508,12 +1508,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_51
       rect:
         serializedVersion: 2
-        x: 533
-        y: 337
-        width: 49
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 534
+        y: 338
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1530,12 +1530,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_52
       rect:
         serializedVersion: 2
-        x: 619
-        y: 337
-        width: 56
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 620
+        y: 338
+        width: 54
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1552,12 +1552,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_53
       rect:
         serializedVersion: 2
-        x: 699
-        y: 322
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 323
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1574,12 +1574,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_54
       rect:
         serializedVersion: 2
-        x: 13
-        y: 258
-        width: 41
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 14
+        y: 259
+        width: 39
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1596,12 +1596,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_55
       rect:
         serializedVersion: 2
-        x: 102
-        y: 258
-        width: 68
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 103
+        y: 259
+        width: 66
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1618,12 +1618,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_56
       rect:
         serializedVersion: 2
-        x: 188
-        y: 258
-        width: 63
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 189
+        y: 259
+        width: 61
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1640,12 +1640,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_57
       rect:
         serializedVersion: 2
-        x: 274
-        y: 258
-        width: 48
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 275
+        y: 259
+        width: 46
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1662,12 +1662,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_58
       rect:
         serializedVersion: 2
-        x: 359
-        y: 258
-        width: 41
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 360
+        y: 259
+        width: 39
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1684,12 +1684,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_59
       rect:
         serializedVersion: 2
-        x: 442
-        y: 258
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 443
+        y: 259
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1706,12 +1706,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_60
       rect:
         serializedVersion: 2
-        x: 527
-        y: 258
-        width: 44
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 259
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1728,12 +1728,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_61
       rect:
         serializedVersion: 2
-        x: 613
-        y: 258
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 614
+        y: 259
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1750,12 +1750,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_62
       rect:
         serializedVersion: 2
-        x: 699
-        y: 258
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 259
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1772,12 +1772,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_63
       rect:
         serializedVersion: 2
-        x: 16
-        y: 194
-        width: 48
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 195
+        width: 46
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1794,12 +1794,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_64
       rect:
         serializedVersion: 2
-        x: 99
-        y: 194
-        width: 55
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 100
+        y: 195
+        width: 53
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1816,12 +1816,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_65
       rect:
         serializedVersion: 2
-        x: 177
-        y: 194
-        width: 82
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 178
+        y: 195
+        width: 80
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1838,12 +1838,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_66
       rect:
         serializedVersion: 2
-        x: 260
-        y: 194
-        width: 62
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 261
+        y: 195
+        width: 60
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1860,12 +1860,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_67
       rect:
         serializedVersion: 2
-        x: 355
-        y: 194
-        width: 47
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 356
+        y: 195
+        width: 45
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1882,12 +1882,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_68
       rect:
         serializedVersion: 2
-        x: 441
-        y: 194
-        width: 47
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 442
+        y: 195
+        width: 45
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1904,12 +1904,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_69
       rect:
         serializedVersion: 2
-        x: 527
-        y: 194
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 195
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1926,12 +1926,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_70
       rect:
         serializedVersion: 2
-        x: 613
-        y: 194
-        width: 44
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 614
+        y: 195
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1948,12 +1948,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_71
       rect:
         serializedVersion: 2
-        x: 699
-        y: 194
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 195
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1970,12 +1970,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_72
       rect:
         serializedVersion: 2
-        x: 11
-        y: 130
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 131
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1992,12 +1992,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_73
       rect:
         serializedVersion: 2
-        x: 97
-        y: 130
-        width: 44
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 98
+        y: 131
+        width: 42
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2014,12 +2014,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_74
       rect:
         serializedVersion: 2
-        x: 183
-        y: 130
-        width: 51
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 184
+        y: 131
+        width: 49
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2036,12 +2036,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_75
       rect:
         serializedVersion: 2
-        x: 269
-        y: 130
-        width: 48
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 270
+        y: 131
+        width: 46
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2058,12 +2058,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_76
       rect:
         serializedVersion: 2
-        x: 355
-        y: 130
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 356
+        y: 131
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2080,12 +2080,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_77
       rect:
         serializedVersion: 2
-        x: 439
-        y: 130
-        width: 42
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 440
+        y: 131
+        width: 40
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2102,12 +2102,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_78
       rect:
         serializedVersion: 2
-        x: 523
-        y: 130
-        width: 43
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 524
+        y: 131
+        width: 41
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2124,12 +2124,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_79
       rect:
         serializedVersion: 2
-        x: 609
-        y: 130
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 610
+        y: 131
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2146,12 +2146,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_80
       rect:
         serializedVersion: 2
-        x: 699
-        y: 130
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 131
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2168,12 +2168,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_81
       rect:
         serializedVersion: 2
-        x: 11
-        y: 66
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 67
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2190,12 +2190,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_82
       rect:
         serializedVersion: 2
-        x: 99
-        y: 66
-        width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 100
+        y: 67
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2212,12 +2212,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_83
       rect:
         serializedVersion: 2
-        x: 186
-        y: 66
-        width: 33
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 187
+        y: 67
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2234,12 +2234,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_84
       rect:
         serializedVersion: 2
-        x: 267
-        y: 66
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 268
+        y: 67
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2256,12 +2256,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_85
       rect:
         serializedVersion: 2
-        x: 356
-        y: 66
-        width: 30
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 357
+        y: 67
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2278,12 +2278,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_86
       rect:
         serializedVersion: 2
-        x: 437
-        y: 66
-        width: 39
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 67
+        width: 37
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2300,12 +2300,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_87
       rect:
         serializedVersion: 2
-        x: 518
-        y: 66
-        width: 52
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 88
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2322,12 +2322,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_88
       rect:
         serializedVersion: 2
-        x: 723
-        y: 87
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 519
+        y: 67
+        width: 50
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2344,12 +2344,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_89
       rect:
         serializedVersion: 2
-        x: 604
-        y: 66
-        width: 57
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 605
+        y: 67
+        width: 55
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2366,12 +2366,12 @@ TextureImporter:
       name: shadow_series_blue_shinobi_spritesheetV01_90
       rect:
         serializedVersion: 2
-        x: 36
-        y: 24
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 37
+        y: 25
+        width: 10
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2388,7 +2388,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 271fff5de46d1fa4ebe74211da97ae4e
     internalID: 0
     vertices: []
     indices: 

@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 7216706}
   - component: {fileID: 7216705}
   - component: {fileID: 7216704}
+  - component: {fileID: 7216709}
   m_Layer: 9
   m_Name: Red Ninja (16)
   m_TagString: EnemyNinja
@@ -236,7 +237,7 @@ Transform:
   m_GameObject: {fileID: 7216702}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 400.31, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 400.31, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -316,7 +317,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &7216707
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -351,10 +352,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -418,6 +419,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7216709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7216702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &13895011
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +448,7 @@ GameObject:
   - component: {fileID: 13895015}
   - component: {fileID: 13895014}
   - component: {fileID: 13895013}
+  - component: {fileID: 13895018}
   m_Layer: 9
   m_Name: Red Ninja (5)
   m_TagString: EnemyNinja
@@ -448,7 +465,7 @@ Transform:
   m_GameObject: {fileID: 13895011}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 187.6, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 187.6, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -528,7 +545,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &13895016
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -563,10 +580,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -630,6 +647,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &13895018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13895011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &20147454
 GameObject:
   m_ObjectHideFlags: 0
@@ -2567,6 +2599,7 @@ GameObject:
   - component: {fileID: 100172044}
   - component: {fileID: 100172043}
   - component: {fileID: 100172042}
+  - component: {fileID: 100172047}
   m_Layer: 9
   m_Name: Red Ninja (2)
   m_TagString: EnemyNinja
@@ -2583,7 +2616,7 @@ Transform:
   m_GameObject: {fileID: 100172040}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 74.5, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 74.5, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2663,7 +2696,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &100172045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2698,10 +2731,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -2765,6 +2798,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &100172047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100172040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &105597681
 GameObject:
   m_ObjectHideFlags: 0
@@ -4780,6 +4828,7 @@ GameObject:
   - component: {fileID: 226877300}
   - component: {fileID: 226877299}
   - component: {fileID: 226877298}
+  - component: {fileID: 226877303}
   m_Layer: 9
   m_Name: WhiteNinja (7)
   m_TagString: EnemyNinja
@@ -4796,7 +4845,7 @@ Transform:
   m_GameObject: {fileID: 226877296}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 383.6, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 383.6, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4876,7 +4925,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &226877301
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4911,10 +4960,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -4978,6 +5027,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &226877303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226877296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &228017002
 GameObject:
   m_ObjectHideFlags: 0
@@ -6229,6 +6293,7 @@ GameObject:
   - component: {fileID: 319046641}
   - component: {fileID: 319046642}
   - component: {fileID: 319046643}
+  - component: {fileID: 319046644}
   m_Layer: 9
   m_Name: Red Ninja
   m_TagString: EnemyNinja
@@ -6300,7 +6365,7 @@ Transform:
   m_GameObject: {fileID: 319046637}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.5, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 4.5, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6340,10 +6405,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -6378,7 +6443,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!114 &319046642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6427,6 +6492,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &319046644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319046637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &322936688
 GameObject:
   m_ObjectHideFlags: 0
@@ -7656,6 +7736,7 @@ GameObject:
   - component: {fileID: 384475998}
   - component: {fileID: 384475997}
   - component: {fileID: 384475996}
+  - component: {fileID: 384476001}
   m_Layer: 9
   m_Name: Red Ninja (15)
   m_TagString: EnemyNinja
@@ -7672,7 +7753,7 @@ Transform:
   m_GameObject: {fileID: 384475994}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 439.14, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 439.14, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7752,7 +7833,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &384475999
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7787,10 +7868,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -7854,6 +7935,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &384476001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384475994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &385897985
 GameObject:
   m_ObjectHideFlags: 0
@@ -8477,6 +8573,7 @@ GameObject:
   - component: {fileID: 407367880}
   - component: {fileID: 407367879}
   - component: {fileID: 407367878}
+  - component: {fileID: 407367883}
   m_Layer: 9
   m_Name: Red Ninja (12)
   m_TagString: EnemyNinja
@@ -8493,7 +8590,7 @@ Transform:
   m_GameObject: {fileID: 407367876}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 428.9, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 428.9, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8573,7 +8670,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &407367881
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8608,10 +8705,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -8675,6 +8772,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &407367883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407367876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &407586332
 GameObject:
   m_ObjectHideFlags: 0
@@ -8960,8 +9072,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429433344}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 157.31528, y: 7.2353773, z: -0.22545367}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 157.31529, y: 7.2353773, z: -0.22546387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9517,6 +9629,7 @@ GameObject:
   - component: {fileID: 445499559}
   - component: {fileID: 445499558}
   - component: {fileID: 445499557}
+  - component: {fileID: 445499562}
   m_Layer: 9
   m_Name: Red Ninja (10)
   m_TagString: EnemyNinja
@@ -9533,7 +9646,7 @@ Transform:
   m_GameObject: {fileID: 445499555}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 322.55, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 322.55, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9613,7 +9726,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &445499560
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9648,10 +9761,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -9715,6 +9828,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &445499562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445499555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &447573474
 GameObject:
   m_ObjectHideFlags: 0
@@ -9850,6 +9978,7 @@ GameObject:
   - component: {fileID: 457260939}
   - component: {fileID: 457260938}
   - component: {fileID: 457260937}
+  - component: {fileID: 457260942}
   m_Layer: 9
   m_Name: WhiteNinja (11)
   m_TagString: EnemyNinja
@@ -9866,7 +9995,7 @@ Transform:
   m_GameObject: {fileID: 457260935}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 291.65, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 291.65, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9946,7 +10075,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &457260940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9981,10 +10110,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -10048,6 +10177,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &457260942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457260935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &463762003
 GameObject:
   m_ObjectHideFlags: 0
@@ -10135,6 +10279,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &474396724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 474396726}
+  - component: {fileID: 474396725}
+  m_Layer: 0
+  m_Name: WinLoseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &474396725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474396724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7d1238764062146abe751749642e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &474396726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474396724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 42.127968, y: 7.286545, z: -0.007279021}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &484547049
 GameObject:
   m_ObjectHideFlags: 0
@@ -10149,6 +10337,7 @@ GameObject:
   - component: {fileID: 484547053}
   - component: {fileID: 484547052}
   - component: {fileID: 484547051}
+  - component: {fileID: 484547056}
   m_Layer: 9
   m_Name: Red Ninja (3)
   m_TagString: EnemyNinja
@@ -10165,7 +10354,7 @@ Transform:
   m_GameObject: {fileID: 484547049}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 104.6, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 104.6, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10245,7 +10434,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &484547054
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10280,10 +10469,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -10347,6 +10536,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &484547056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484547049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &487200229
 GameObject:
   m_ObjectHideFlags: 0
@@ -10796,6 +11000,7 @@ GameObject:
   - component: {fileID: 498803196}
   - component: {fileID: 498803195}
   - component: {fileID: 498803194}
+  - component: {fileID: 498803199}
   m_Layer: 9
   m_Name: WhiteNinja (6)
   m_TagString: EnemyNinja
@@ -10812,7 +11017,7 @@ Transform:
   m_GameObject: {fileID: 498803192}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 358.5, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 358.5, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10892,7 +11097,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &498803197
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10927,10 +11132,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -10994,6 +11199,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &498803199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498803192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &511172308
 GameObject:
   m_ObjectHideFlags: 0
@@ -11508,6 +11728,7 @@ GameObject:
   - component: {fileID: 546072395}
   - component: {fileID: 546072394}
   - component: {fileID: 546072393}
+  - component: {fileID: 546072398}
   m_Layer: 9
   m_Name: WhiteNinja (14)
   m_TagString: EnemyNinja
@@ -11524,7 +11745,7 @@ Transform:
   m_GameObject: {fileID: 546072391}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 451.26, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 451.26, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11604,7 +11825,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &546072396
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11639,10 +11860,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -11706,6 +11927,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &546072398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546072391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &551702760
 GameObject:
   m_ObjectHideFlags: 0
@@ -11928,6 +12164,7 @@ GameObject:
   - component: {fileID: 562450948}
   - component: {fileID: 562450947}
   - component: {fileID: 562450946}
+  - component: {fileID: 562450951}
   m_Layer: 9
   m_Name: WhiteNinja (8)
   m_TagString: EnemyNinja
@@ -11944,7 +12181,7 @@ Transform:
   m_GameObject: {fileID: 562450944}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 177.43, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 177.43, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12024,7 +12261,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &562450949
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12059,10 +12296,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -12126,6 +12363,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &562450951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562450944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &564779178
 GameObject:
   m_ObjectHideFlags: 0
@@ -12790,6 +13042,7 @@ GameObject:
   - component: {fileID: 617905454}
   - component: {fileID: 617905453}
   - component: {fileID: 617905452}
+  - component: {fileID: 617905457}
   m_Layer: 9
   m_Name: WhiteNinja (12)
   m_TagString: EnemyNinja
@@ -12806,7 +13059,7 @@ Transform:
   m_GameObject: {fileID: 617905450}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 239.32, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 239.32, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12886,7 +13139,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &617905455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12921,10 +13174,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -12988,6 +13241,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &617905457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617905450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -13086,6 +13354,7 @@ GameObject:
   - component: {fileID: 629205676}
   - component: {fileID: 629205675}
   - component: {fileID: 629205674}
+  - component: {fileID: 629205679}
   m_Layer: 9
   m_Name: WhiteNinja (2)
   m_TagString: EnemyNinja
@@ -13102,7 +13371,7 @@ Transform:
   m_GameObject: {fileID: 629205672}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 143.6, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 143.6, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13182,7 +13451,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &629205677
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13217,10 +13486,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -13284,6 +13553,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &629205679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629205672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &631727049
 GameObject:
   m_ObjectHideFlags: 0
@@ -13298,6 +13582,7 @@ GameObject:
   - component: {fileID: 631727053}
   - component: {fileID: 631727052}
   - component: {fileID: 631727051}
+  - component: {fileID: 631727056}
   m_Layer: 9
   m_Name: Red Ninja (1)
   m_TagString: EnemyNinja
@@ -13314,7 +13599,7 @@ Transform:
   m_GameObject: {fileID: 631727049}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40.6, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 40.6, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13394,7 +13679,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &631727054
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13429,10 +13714,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -13496,6 +13781,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &631727056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631727049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &637031564
 GameObject:
   m_ObjectHideFlags: 0
@@ -13743,6 +14043,7 @@ GameObject:
   - component: {fileID: 648646347}
   - component: {fileID: 648646346}
   - component: {fileID: 648646345}
+  - component: {fileID: 648646350}
   m_Layer: 9
   m_Name: Red Ninja (17)
   m_TagString: EnemyNinja
@@ -13759,7 +14060,7 @@ Transform:
   m_GameObject: {fileID: 648646343}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 347.93, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 347.93, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13839,7 +14140,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &648646348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13874,10 +14175,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -13941,6 +14242,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &648646350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648646343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &661400145
 GameObject:
   m_ObjectHideFlags: 0
@@ -14042,6 +14358,7 @@ GameObject:
   - component: {fileID: 670239554}
   - component: {fileID: 670239553}
   - component: {fileID: 670239552}
+  - component: {fileID: 670239557}
   m_Layer: 9
   m_Name: WhiteNinja (15)
   m_TagString: EnemyNinja
@@ -14058,7 +14375,7 @@ Transform:
   m_GameObject: {fileID: 670239550}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 466.97, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 466.97, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14138,7 +14455,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &670239555
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14173,10 +14490,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -14240,6 +14557,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &670239557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670239550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &670791387
 GameObject:
   m_ObjectHideFlags: 0
@@ -14254,6 +14586,7 @@ GameObject:
   - component: {fileID: 670791391}
   - component: {fileID: 670791390}
   - component: {fileID: 670791389}
+  - component: {fileID: 670791394}
   m_Layer: 9
   m_Name: Red Ninja (13)
   m_TagString: EnemyNinja
@@ -14270,7 +14603,7 @@ Transform:
   m_GameObject: {fileID: 670791387}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 490.51, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 490.51, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14350,7 +14683,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &670791392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14385,10 +14718,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -14452,6 +14785,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &670791394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670791387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &671125239
 GameObject:
   m_ObjectHideFlags: 0
@@ -14621,6 +14969,7 @@ GameObject:
   - component: {fileID: 689621953}
   - component: {fileID: 689621952}
   - component: {fileID: 689621951}
+  - component: {fileID: 689621956}
   m_Layer: 9
   m_Name: WhiteNinja (1)
   m_TagString: EnemyNinja
@@ -14637,7 +14986,7 @@ Transform:
   m_GameObject: {fileID: 689621949}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 120.2, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 120.2, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14717,7 +15066,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &689621954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14752,10 +15101,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -14819,6 +15168,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &689621956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689621949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &692302522
 GameObject:
   m_ObjectHideFlags: 0
@@ -15094,6 +15458,7 @@ GameObject:
   - component: {fileID: 723040664}
   - component: {fileID: 723040663}
   - component: {fileID: 723040662}
+  - component: {fileID: 723040667}
   m_Layer: 9
   m_Name: Red Ninja (7)
   m_TagString: EnemyNinja
@@ -15110,7 +15475,7 @@ Transform:
   m_GameObject: {fileID: 723040660}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 223.9, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 223.9, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15190,7 +15555,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &723040665
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15225,10 +15590,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -15292,6 +15657,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &723040667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723040660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &724182334
 GameObject:
   m_ObjectHideFlags: 0
@@ -15379,6 +15759,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &727277660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 727277664}
+  - component: {fileID: 727277663}
+  - component: {fileID: 727277662}
+  - component: {fileID: 727277661}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &727277661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727277660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &727277662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727277660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &727277663
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727277660}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 30
+  m_TargetDisplay: 0
+--- !u!224 &727277664
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727277660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1432460518}
+  - {fileID: 1135806886}
+  - {fileID: 1418524961}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &730435430
 GameObject:
   m_ObjectHideFlags: 0
@@ -16384,6 +16868,7 @@ GameObject:
   - component: {fileID: 812422667}
   - component: {fileID: 812422666}
   - component: {fileID: 812422665}
+  - component: {fileID: 812422670}
   m_Layer: 9
   m_Name: WhiteNinja (13)
   m_TagString: EnemyNinja
@@ -16400,7 +16885,7 @@ Transform:
   m_GameObject: {fileID: 812422663}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 403.78, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 403.78, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16480,7 +16965,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &812422668
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16515,10 +17000,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -16582,6 +17067,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &812422670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812422663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &816671696
 GameObject:
   m_ObjectHideFlags: 0
@@ -17466,6 +17966,7 @@ GameObject:
   - component: {fileID: 841367061}
   - component: {fileID: 841367060}
   - component: {fileID: 841367059}
+  - component: {fileID: 841367064}
   m_Layer: 9
   m_Name: WhiteNinja (17)
   m_TagString: EnemyNinja
@@ -17482,7 +17983,7 @@ Transform:
   m_GameObject: {fileID: 841367057}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 421.23, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 421.23, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17562,7 +18063,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &841367062
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17597,10 +18098,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -17664,6 +18165,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &841367064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841367057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &851068839
 GameObject:
   m_ObjectHideFlags: 0
@@ -18200,6 +18716,7 @@ GameObject:
   - component: {fileID: 866778873}
   - component: {fileID: 866778872}
   - component: {fileID: 866778871}
+  - component: {fileID: 866778876}
   m_Layer: 9
   m_Name: WhiteNinja (9)
   m_TagString: EnemyNinja
@@ -18216,7 +18733,7 @@ Transform:
   m_GameObject: {fileID: 866778869}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 202.51, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 202.51, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18296,7 +18813,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &866778874
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18331,10 +18848,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -18398,6 +18915,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &866778876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866778869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &869272507
 GameObject:
   m_ObjectHideFlags: 0
@@ -20980,6 +21512,7 @@ GameObject:
   - component: {fileID: 1069361289}
   - component: {fileID: 1069361290}
   - component: {fileID: 1069361291}
+  - component: {fileID: 1069361292}
   m_Layer: 6
   m_Name: Character
   m_TagString: Character
@@ -21051,7 +21584,7 @@ Transform:
   m_GameObject: {fileID: 1069361284}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.59, y: 2.25, z: 0}
+  m_LocalPosition: {x: -14.59, y: 0.75, z: 0}
   m_LocalScale: {x: 9.066717, y: 8.857733, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21091,11 +21624,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.024817884, y: -0.00060380995}
+  m_Offset: {x: -0.024817884, y: 0.17}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.33846155, y: 0.34615386}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.32307693, y: 0.33076924}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -21185,6 +21718,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maincamera: {fileID: 0}
   yOffset: 0
+--- !u!114 &1069361292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069361284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48dae07c6db8b841a714f627387432c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterCurrentHealth: 0
+  characterHealth: 100
+  PlayerLives: 1
+  WinLoseCheck: {fileID: 474396725}
 --- !u!1 &1070511595
 GameObject:
   m_ObjectHideFlags: 0
@@ -21286,6 +21835,7 @@ GameObject:
   - component: {fileID: 1079716714}
   - component: {fileID: 1079716713}
   - component: {fileID: 1079716712}
+  - component: {fileID: 1079716717}
   m_Layer: 9
   m_Name: Red Ninja (6)
   m_TagString: EnemyNinja
@@ -21302,7 +21852,7 @@ Transform:
   m_GameObject: {fileID: 1079716710}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 160, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 160, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21382,7 +21932,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1079716715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21417,10 +21967,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -21484,6 +22034,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1079716717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079716710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1096430916
 GameObject:
   m_ObjectHideFlags: 0
@@ -21498,6 +22063,7 @@ GameObject:
   - component: {fileID: 1096430920}
   - component: {fileID: 1096430919}
   - component: {fileID: 1096430918}
+  - component: {fileID: 1096430923}
   m_Layer: 9
   m_Name: Red Ninja (8)
   m_TagString: EnemyNinja
@@ -21514,7 +22080,7 @@ Transform:
   m_GameObject: {fileID: 1096430916}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 260.23, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 260.23, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21594,7 +22160,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1096430921
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21629,10 +22195,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -21696,6 +22262,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1096430923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096430916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1097598088
 GameObject:
   m_ObjectHideFlags: 0
@@ -22058,6 +22639,7 @@ GameObject:
   - component: {fileID: 1118673657}
   - component: {fileID: 1118673656}
   - component: {fileID: 1118673655}
+  - component: {fileID: 1118673660}
   m_Layer: 9
   m_Name: WhiteNinja (4)
   m_TagString: EnemyNinja
@@ -22074,7 +22656,7 @@ Transform:
   m_GameObject: {fileID: 1118673653}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 301.4, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 301.4, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22154,7 +22736,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1118673658
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22189,10 +22771,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -22256,6 +22838,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1118673660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118673653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1118715044
 GameObject:
   m_ObjectHideFlags: 0
@@ -22778,6 +23375,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1135806885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1135806886}
+  - component: {fileID: 1135806888}
+  - component: {fileID: 1135806887}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1135806886
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135806885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 727277664}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 177}
+  m_SizeDelta: {x: 400, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1135806887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135806885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.91194963, g: 0.2093468, b: 0.2093468, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1135806888
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135806885}
+  m_CullTransparentMesh: 1
 --- !u!1 &1141470598
 GameObject:
   m_ObjectHideFlags: 0
@@ -25977,6 +26649,7 @@ GameObject:
   - component: {fileID: 1330894818}
   - component: {fileID: 1330894822}
   - component: {fileID: 1330894823}
+  - component: {fileID: 1330894824}
   m_Layer: 9
   m_Name: WhiteNinja
   m_TagString: EnemyNinja
@@ -26010,7 +26683,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1330894819
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26045,10 +26718,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -26121,7 +26794,7 @@ Transform:
   m_GameObject: {fileID: 1330894817}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 81.8, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 81.8, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26175,6 +26848,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1330894824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330894817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1335859868
 GameObject:
   m_ObjectHideFlags: 0
@@ -27581,6 +28269,7 @@ GameObject:
   - component: {fileID: 1406081336}
   - component: {fileID: 1406081335}
   - component: {fileID: 1406081334}
+  - component: {fileID: 1406081339}
   m_Layer: 9
   m_Name: WhiteNinja (16)
   m_TagString: EnemyNinja
@@ -27597,7 +28286,7 @@ Transform:
   m_GameObject: {fileID: 1406081332}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 483.07, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 483.07, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27677,7 +28366,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1406081337
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27712,10 +28401,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -27779,6 +28468,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1406081339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406081332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1411535077
 GameObject:
   m_ObjectHideFlags: 0
@@ -27880,6 +28584,7 @@ GameObject:
   - component: {fileID: 1414002619}
   - component: {fileID: 1414002618}
   - component: {fileID: 1414002617}
+  - component: {fileID: 1414002622}
   m_Layer: 9
   m_Name: Red Ninja (14)
   m_TagString: EnemyNinja
@@ -27896,7 +28601,7 @@ Transform:
   m_GameObject: {fileID: 1414002615}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 515.5, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 515.5, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27976,7 +28681,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1414002620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28011,10 +28716,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -28078,6 +28783,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1414002622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414002615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1414847363
 GameObject:
   m_ObjectHideFlags: 0
@@ -28165,6 +28885,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1418524960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1418524961}
+  - component: {fileID: 1418524963}
+  - component: {fileID: 1418524962}
+  m_Layer: 0
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1418524961
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418524960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 727277664}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 177}
+  m_SizeDelta: {x: 400, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1418524962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418524960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.02808857, g: 0, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 7482667652216324306, guid: 3780635f84f2b7648a3d6c7f15f8ad49, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 0.653
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1418524963
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418524960}
+  m_CullTransparentMesh: 1
 --- !u!1 &1425869762
 GameObject:
   m_ObjectHideFlags: 0
@@ -28339,6 +29134,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1432460517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1432460518}
+  - component: {fileID: 1432460520}
+  - component: {fileID: 1432460519}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1432460518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432460517}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -279.3333, y: -174.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 727277664}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1432460519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432460517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1432460520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432460517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!1 &1434339289
 GameObject:
   m_ObjectHideFlags: 0
@@ -30127,6 +31001,7 @@ GameObject:
   - component: {fileID: 1552552842}
   - component: {fileID: 1552552841}
   - component: {fileID: 1552552840}
+  - component: {fileID: 1552552845}
   m_Layer: 9
   m_Name: WhiteNinja (5)
   m_TagString: EnemyNinja
@@ -30143,7 +31018,7 @@ Transform:
   m_GameObject: {fileID: 1552552838}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 333.5, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 333.5, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30223,7 +31098,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1552552843
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30258,10 +31133,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -30325,6 +31200,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1552552845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552552838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1557320549
 GameObject:
   m_ObjectHideFlags: 0
@@ -31530,6 +32420,7 @@ GameObject:
   - component: {fileID: 1643164563}
   - component: {fileID: 1643164562}
   - component: {fileID: 1643164561}
+  - component: {fileID: 1643164566}
   m_Layer: 9
   m_Name: WhiteNinja (3)
   m_TagString: EnemyNinja
@@ -31546,7 +32437,7 @@ Transform:
   m_GameObject: {fileID: 1643164559}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 270.7, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 270.7, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31626,7 +32517,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1643164564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31661,10 +32552,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -31728,6 +32619,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1643164566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643164559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1643839986
 GameObject:
   m_ObjectHideFlags: 0
@@ -33086,6 +33992,7 @@ GameObject:
   - component: {fileID: 1723611275}
   - component: {fileID: 1723611274}
   - component: {fileID: 1723611273}
+  - component: {fileID: 1723611278}
   m_Layer: 9
   m_Name: Red Ninja (9)
   m_TagString: EnemyNinja
@@ -33102,7 +34009,7 @@ Transform:
   m_GameObject: {fileID: 1723611271}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 311.02, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 311.02, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33182,7 +34089,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1723611276
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33217,10 +34124,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -33284,6 +34191,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1723611278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723611271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1730973918
 GameObject:
   m_ObjectHideFlags: 0
@@ -33559,6 +34481,7 @@ GameObject:
   - component: {fileID: 1738637484}
   - component: {fileID: 1738637483}
   - component: {fileID: 1738637482}
+  - component: {fileID: 1738637487}
   m_Layer: 9
   m_Name: WhiteNinja (10)
   m_TagString: EnemyNinja
@@ -33575,7 +34498,7 @@ Transform:
   m_GameObject: {fileID: 1738637480}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 253.54, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 253.54, y: -7.7, z: 0.16141243}
   m_LocalScale: {x: 4.199024, y: 4.13352, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33655,7 +34578,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1738637485
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33690,10 +34613,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.040780373, y: 0.0019595623}
+  m_Offset: {x: 0.040780373, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.41538462, y: 0.86162263}
     adaptiveTilingThreshold: 0.5
@@ -33757,6 +34680,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1738637487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738637480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1747926630
 GameObject:
   m_ObjectHideFlags: 0
@@ -36511,6 +37449,7 @@ GameObject:
   - component: {fileID: 1897243422}
   - component: {fileID: 1897243421}
   - component: {fileID: 1897243420}
+  - component: {fileID: 1897243425}
   m_Layer: 9
   m_Name: Red Ninja (18)
   m_TagString: EnemyNinja
@@ -36527,7 +37466,7 @@ Transform:
   m_GameObject: {fileID: 1897243418}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.49, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 29.49, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36607,7 +37546,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1897243423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36642,10 +37581,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -36709,6 +37648,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1897243425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897243418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1897522224
 GameObject:
   m_ObjectHideFlags: 0
@@ -36897,6 +37851,7 @@ GameObject:
   - component: {fileID: 1906078572}
   - component: {fileID: 1906078571}
   - component: {fileID: 1906078570}
+  - component: {fileID: 1906078575}
   m_Layer: 9
   m_Name: Red Ninja (11)
   m_TagString: EnemyNinja
@@ -36913,7 +37868,7 @@ Transform:
   m_GameObject: {fileID: 1906078568}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 377.48, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 377.48, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36993,7 +37948,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1906078573
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37028,10 +37983,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -37095,6 +38050,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1906078575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906078568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1911202585
 GameObject:
   m_ObjectHideFlags: 0
@@ -37196,6 +38166,7 @@ GameObject:
   - component: {fileID: 1918589491}
   - component: {fileID: 1918589490}
   - component: {fileID: 1918589489}
+  - component: {fileID: 1918589494}
   m_Layer: 9
   m_Name: Red Ninja (4)
   m_TagString: EnemyNinja
@@ -37212,7 +38183,7 @@ Transform:
   m_GameObject: {fileID: 1918589487}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 134.4, y: -6.115053, z: 0.16141243}
+  m_LocalPosition: {x: 134.4, y: -7.74, z: 0.16141243}
   m_LocalScale: {x: 4.3066907, y: 4.2226167, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37292,7 +38263,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!61 &1918589492
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37327,10 +38298,10 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.041131794, y: 0.0019595623}
+  m_Offset: {x: 0.041131794, y: 0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.7230769, y: 0.7385337}
     newSize: {x: 0.93999994, y: 0.9600938}
     adaptiveTilingThreshold: 0.5
@@ -37394,6 +38365,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1918589494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918589487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf668a49866c6f40966aab161f2f229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemycharacterCurrentHealth: 0
+  EnemycharacterHealth: 100
+  checkWinLose: {fileID: 474396725}
 --- !u!1 &1924566292
 GameObject:
   m_ObjectHideFlags: 0
@@ -41425,3 +42411,5 @@ SceneRoots:
   - {fileID: 942857481}
   - {fileID: 1875233454}
   - {fileID: 429433345}
+  - {fileID: 727277664}
+  - {fileID: 474396726}

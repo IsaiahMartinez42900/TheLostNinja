@@ -84,10 +84,10 @@ public class EnemyAction : MonoBehaviour
             Vector2 direction = (player.position - transform.position).normalized;
             // Trying to have enemies shoot player if they face his direction
             
-            var hits = Physics2D.RaycastAll(transform.position, transform.right * Direction, detectRange, layerMask); //new line
+            var hits = Physics2D.RaycastAll(transform.position + Vector3.up * 1.3f, transform.right * Direction, detectRange, layerMask); //new line
             if (hits.Length > 0) //new line                                                               
             {
-                GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
+                GameObject s = Instantiate(shurikenPrefab, transform.position + Vector3.up * 1.3f, transform.rotation);
                 s.GetComponent<Shuriken>().direction = Direction;
                 currentShurikens--;
                 shurikenTimer = shurikenCooldown;

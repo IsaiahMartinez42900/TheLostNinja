@@ -118,7 +118,7 @@ public class NinjaAction : MonoBehaviour
             anim.SetBool("ShurikenThrow", true);
 
             
-            GameObject s = Instantiate(shurikenPrefab, transform.position, transform.rotation);
+            GameObject s = Instantiate(shurikenPrefab, transform.position + Vector3.up * 1.3f, transform.rotation);
                s.GetComponent<Shuriken>().direction = direction;
             
             Debug.Log(direction);
