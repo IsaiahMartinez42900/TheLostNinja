@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://vq31c3c72lrh"]
+
+[ext_resource type="Script" path="res://sound/sound_controller.gd" id="1_ww4yi"]
+
+[node name="SoundController" type="Node"]
+script = ExtResource("1_ww4yi")
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+bus = &"Bgm"
+
+[node name="SfxPlayer1" type="AudioStreamPlayer" parent="."]
+bus = &"Sfx"
+
+[node name="SfxPlayer2" type="AudioStreamPlayer" parent="."]
+bus = &"Sfx"

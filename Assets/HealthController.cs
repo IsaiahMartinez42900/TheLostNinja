@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class HealthController : MonoBehaviour
     private NinjaAction ninjaMovement; //Reference to Ninja Movement script
     public bool PlayerLives = true;
     public WinLoseController WinLoseCheck;
+    //public Image healthBar;
 
     void Start()
     {
@@ -22,6 +24,7 @@ public class HealthController : MonoBehaviour
     public void TakeDamage(float damageAmount = 25f)
     {
         characterCurrentHealth -= damageAmount;
+        
         anim.SetTrigger("NinjaHurt");
         if (characterCurrentHealth <= 0)
         {

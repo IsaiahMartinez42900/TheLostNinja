@@ -1,4 +1,5 @@
 using System.Runtime.CompilerServices;
+using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -8,9 +9,13 @@ public class EnemyHealthController : MonoBehaviour
     public float EnemycharacterHealth = 100f;
     private Animator anim;
     private EnemyAction movement;
-    public static int currentEnemies = 3; //37 is right number
-    
-    public WinLoseController checkWinLose; 
+    private static int currentEnemies = 37; //37 is right number
+
+    public Transform destination;
+    private float winX = 557.73f; //150.56f;
+    private bool hasWon = false;
+    public WinLoseController checkWinLose;
+    //public WinLoseController winlosecontroller;
 
     void Start()
     {
@@ -21,6 +26,10 @@ public class EnemyHealthController : MonoBehaviour
         
 
 
+    }
+    void Update()
+    {
+        checkwinningCondition();
     }
 
 
@@ -34,11 +43,7 @@ public class EnemyHealthController : MonoBehaviour
         {
             currentEnemies--;
             
-            if (currentEnemies <= 0)
-            {
-                Debug.Log("AllDead");
-                checkWinLose.YouWin();
-            }
+            
             if (movement != null)
             {
                 movement.enabled = false;
@@ -60,8 +65,21 @@ public class EnemyHealthController : MonoBehaviour
             anim.SetTrigger("WhiteNinjaDeath");
             Debug.Log("EnemyDeath");
         }
+        
     }
+    public void checkwinningCondition()
+    {
+        if (hasWon) return;
+        bool allenemiesDead = currentEnemies <= 0;
+        bool reachedDestination = destination.position.x >= winX;
+        if (allenemiesDead && reachedDestination)
+        {
+            hasWon = true;
+            checkWinLose.YouWin();
+        }
 
+        
+    }
 
 
 }

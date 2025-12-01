@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3 uid="uid://do4iv7blyuefv"]
+
+[ext_resource type="Script" path="res://gui/credit.gd" id="1_o61eb"]
+[ext_resource type="Theme" uid="uid://ecajw5bl35k8" path="res://theme/d_theme.tres" id="2_5hfsb"]
+[ext_resource type="Texture2D" uid="uid://dhofcn6myy5on" path="res://picture/grey.png" id="2_apnry"]
+
+[node name="Credit" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_o61eb")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_apnry")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -226.5
+offset_top = -106.5
+offset_right = 226.5
+offset_bottom = 106.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_5hfsb")
+text = "Main menu: Sun
+\"Your credit here\"
+"
+
+[node name="Return" type="Button" parent="VBoxContainer" groups=["Button"]]
+layout_mode = 2
+theme = ExtResource("2_5hfsb")
+text = "Return"
+
+[connection signal="pressed" from="VBoxContainer/Return" to="." method="_on_return_pressed"]
