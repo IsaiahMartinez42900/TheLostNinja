@@ -13,7 +13,7 @@ public class NinjaAction : MonoBehaviour
     private bool isCharacter = false;
 
     public float jumpForce = 10f;
-    private bool isGrounded;
+    private bool isGrounded;   
     public float direction = 1;
     private float move;
 
@@ -138,9 +138,23 @@ public class NinjaAction : MonoBehaviour
             Debug.Log("jumped");
             AudioManager.instance.PlaySounds(AudioManager.instance.NinjaJump);
         }
+        
+        // To stop jumping animation when throwing shuriken animation is being used in mid air
+        if (Input.GetKeyDown(KeyCode.Space) && !isGrounded)
+        {
+            anim.SetBool("Jump", false);
+        }
+
+
     }
 
-
+        /*public void JumpAnimLoopEnd() {
+        
+        if (isGrounded == false)
+        {
+            anim.SetBool("Jump", false);
+        }
+    }*/
 
         void OnCollisionEnter2D(Collision2D collision)
         {
